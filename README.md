@@ -12,9 +12,9 @@
 
 **ankle**  ⇒ the joint between the foot and the leg.
 
-**sneak (snuck ⇒ past)** ⇒ to walk quietly, especially on tiptoes so that nobody sees you. She **snuck** out of the house late at night when her parents were sleeping.
+**sneak (snuck ⇒ past)** ⇒ to walk quietly, especially on tiptoes so that nobody sees you. ⇒ She **snuck** out of the house late at night when her parents were sleeping.
 
-**uptight** ⇒ Someone who is uptight - tight opposite of relaxed - isn‘t able to relax, is always worrying about something and getting upset over small things. ⇒ I know she’s a responsible a student , but even during vacation she was **uptight** about an exam 3 months from then.
+**uptight** ⇒ Someone who is uptight - tight opposite of relaxed - isn‘t able to relax, is always worrying about something and getting upset over small things. ⇒ I know she’s a responsible student , but even during vacation she was **uptight** about an exam 3 months from then.
 
 **to judge** ⇒ Judging someone usually carries a negative connotation as it often signifies you reach a conclusion about a person without knowing them well. ⇒ They all **judged** him when he joined the class, but shortly afterwards he showed he was a brilliant student.
 
@@ -28,7 +28,7 @@
 
 **look out (for something)** ⇒ Used to tell someone to pay attention at his or her surroundings in order to avoid a particular danger. ⇒ If you continue down this street, **look out for** the dog.
 
-**go easy on someone** ⇒ more gentle and less strict or angry to someone or use less something ⇒ The students might response better if the teacher went easy on them.
+**go easy on someone** ⇒ more gentle and less strict or angry to someone or use less something ⇒ The students might response better if the teacher **went easy on** them.
 
 **fry-up** ⇒ Full-Monty: British slang for something that is complete ⇒ It’s all great- Full English - Full Monty - fry-up - try it.
 
@@ -46,13 +46,13 @@
 
 **suffer** ⇒ to undergo or feel pain or great distress. ⇒ I **suffer** for my own sins
 
-**affordable** ⇒ reachable, economic ⇒ The restaurant serves good food at ***affordable*** prices.
+**affordable** ⇒ reachable, economic ⇒ The restaurant serves good food at **affordable** prices.
 
 **I beg to differ** ⇒ To politely disagree with someone else.
 
 **betray** ⇒ break the someone’s trust ⇒ No one will ever **betray** me again.
 
-**voyage** ⇒ long trip ⇒
+**voyage** ⇒ long trip ⇒ The young couple decided to start their **voyage** immediately.
 
 **I’m pretty sure** ⇒ the pretty decreases the intensity of the phrase ⇒ You’re cute, funny. Really? **I’m pretty sure**?.
 
@@ -74,18 +74,18 @@
 
 **auxiliary** ⇒ spare, backup, assistant ⇒ The hospital has an **auxiliary** power system in case of blackout.
 
-**give me a chance to ......** ⇒ We use the collocation to give somone the chance (to do something) to say that we give someone an opportunity to do something ⇒ Give me a chance to redeem myself.
+**give me a chance to ......** ⇒ We use the collocation to give somone the chance (to do something) to say that we give someone an opportunity to do something ⇒ **Give me a chance to** redeem myself.
 
 **redeem** ⇒ to succeed or do something good after one has failed or done something bad / recover something ⇒ You can **redeem** the coupon at any store. / I give her the chance to **redeem**
  herself.
 
 **lawn** ⇒ green plants on the ground / grass ⇒ The dog is rolling on the **lawn*.***
 
-**walk a mile in someone’s shoes** ⇒ dont judge me before don’t know the details  ⇒ You should try walking a mile in my shoes.
+**walk a mile in someone’s shoes** ⇒ dont judge me before don’t know the details  ⇒ You should try **walking a mile in my shoes**.
 
 **intelligible** ⇒ capable of being understood or comprehended ⇒ The report needs to be **intelligible** to the client.
 
-**to throw some-one(thing) off / throw someone off the trail** ⇒ To misdirect some-one(thing) away from their point of pursuit, false information, confusing ⇒ A busy morning can throw off my entire daily schedule.
+**to throw some-one(thing) off / throw someone off the trail** ⇒ To misdirect some-one(thing) away from their point of pursuit, false information, confusing ⇒ A busy morning can **throw off** my entire daily schedule.
 
 **do you mind?** ⇒ usually in questions or in negative statements to ask for permission or to say something doesn’t annoy us. ⇒ Do you mind if I smoke? / Do you mind if I use Lombok?
 
@@ -113,5 +113,18 @@
 
 **brace** ⇒ to prepare / being ready for something ⇒ **Brace** yourself for a new challenge!
 
+**investigate** ⇒ ****to make a systematic examination / research / investigation ⇒ His job is to **investigate** supernatural phenomena.
 
-    
+**blackmail** ⇒ extortion or coercion by threats especially of public exposure or criminal prosecution ⇒ Barney, you can't **blackmail** us into lying to Nora
+
+****intimacy** ⇒ The condition of being intimate. ⇒ I sensed a close **intimacy** between them.
+
+**demanding** ⇒ we usually say that to say something requires a lot of attention or effort. ⇒ She has a very **demanding** schedule.
+
+**have to wait and see** ⇒ we need to time for see the outcome ⇒  'Is he going to get better?' 'I don't know, we'll just **have to wait and see.**'
+
+**it's alright** ⇒ it is okay, no problem ⇒ He says **it's alright** but I think he's keeping something from me.
+
+**I am by myself** ⇒ I am alone
+
+**distinguish** ⇒ seperate (divorse) or defining ⇒ It is important to **distinguish** between cause and effect.
