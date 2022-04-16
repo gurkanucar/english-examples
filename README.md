@@ -127,4 +127,106 @@
 
 **I am by myself** ⇒ I am alone
 
-**distinguish** ⇒ seperate (divorse) or defining ⇒ It is important to **distinguish** between cause and effect.
+**distinguish** ⇒ seperate or defining ⇒ It is important to **distinguish** between cause and effect.
+
+**hilarious** ⇒ extremely funny ⇒ We thought it was **hilarious** when we first heard about it.
+
+**ridiculous** ⇒ extremely silly or unreasonable ⇒ He often says **ridiculous** things.
+
+**bring it on** ⇒ used to express confidence in meeting a challenge. ⇒ GS versus FB - bring it on!
+
+**compensation** ⇒ payment / money that is paid to someone in exchange for something that has been lost or damaged or for some problem ⇒  She got some **compensation** for damages.
+
+**profit** ⇒ earnings / money that is earned in trade or business after paying the costs of producing and selling goods and services ⇒ We'll divide the **profit** fifty-fifty.
+
+**diversity** ⇒ various / the fact of many different types ⇒ Our party believes in encouraging cultural **diversity**, not diversion.
+
+**worth it** ⇒ Worth the cost or work involved to attain ⇒ All our hard work will be **worth it**
+ in the long run .
+
+**anyway** ⇒ ****in any way whatever ⇒ I must do it **anyway**.
+
+**recipient** ⇒ one that receives ⇒ He was a **recipient** of the Civilian Service Award.
+
+**miserable** ⇒ extremely unhappy ⇒ Refugees everywhere lead **miserable** lives.
+
+**will you pass** ⇒ ⇒ How **will you pass** your Christmas holiday?
+
+**is that right?** ⇒ Is that really true? ⇒ Here you go. Four copies, **is that right?**
+
+**works out** ⇒ a practice or exercise / utility ⇒  I hope it all **works out** for Gina and Andy. 
+
+**counselling** ⇒ is the prcess of listening to someone who has a problem and giving them advice  ⇒ **Counselling** is helping him work through this trauma.
+
+**regret** ⇒ to be very sorry for ⇒ One wrong thought may cause a lifelong **regret*.***
+
+**rough patch** ⇒ A period of trouble, difficulty, or hardship. ⇒ My girlfriend and I were going through a **rough patch.**
+
+**instinctively** ⇒ in a way that is not thought about, planned, or developed by training ⇒ I **instinctively** raised my arm to protect my face.
+
+**barely** ⇒ by the smallest amount / hardly ⇒ He **barely** escaped being pawed by the dog.
+
+**escalated** ⇒ to become or make something become greater or more serious ⇒ House prices have **escalated** rapidly.
+
+**on speaking terms** ⇒ friendly enough to talk / talking with someone ⇒ Are you **on speaking terms**
+ with him?
+
+**fell out** ⇒ to argue with someone and stop being friendly with them ⇒ He left home after **falling out** with his parents.
+
+**profession** ⇒ job ⇒ He is a engineer by **profession**.
+
+**perhaps** ⇒ possibly but not certainly ⇒ **Perhaps** you can't control your job, but you may be able to make other changes in your life.
+
+**mild** ⇒ kind , gentle ⇒  He is a **mild**, inoffensive man.
+
+**viable** ⇒ ****capable of living / works out ⇒ Solar power is now a **viable** alternative to oil-fired water heaters.
+
+**double booking** ⇒ to promise the same room, seat, ticket, etc. to more than one person or group ⇒ The room was double-booked so they had to give us a different one.
+
+**favorable** ⇒  Advantageous; helpful, suitable ⇒ We found that most people are **favorable** to the idea.
+
+**madly** ⇒ with a lot of energy and enthusiasm ⇒ She fell **madly** in love with him.
+
+**blowing you a kiss** ⇒ sending kiss
+
+**let loose** ⇒ to allow (someone or something) to move or go freely ⇒ He was at last **let loose** in the kitchen.
+
+**figure out** ⇒ calculating, solving ⇒ Father is trying to **figure out** his tax.
+
+**wondrous** ⇒ marvel / amazing ⇒ It was a ***wondrous*** thing to see the sea for the first time.
+
+**wheezing** ⇒ to breathe with difficulty usually with a whistling sound ⇒ I could hear the old man behind me **wheezing**.
+
+**jealous** ⇒ upset and angry because someone that you love seems interested in another person ⇒ I was **jealous** of Mary's new bicycle.
+
+**oddly** ⇒ weird / in a strange or surprising way ⇒ She's been behaving very **oddly** lately.
+
+**distract** ⇒ to make someone stop giving their attention to something ⇒ Try not to **distract** the other students.
+
+**lot of it** ⇒ many of them ⇒ A **lot of it** is about management process and organisation.
+
+**likewise** ⇒ mee too / in the same way ⇒ He is our friend and **likewise** our leader.
+
+**conducive** ⇒ suitable, appropriate ⇒ Daylight is highly **conducive** to good plant growth.
+
+**take a shoot** ⇒ ⇒ When one chance comes , just **take a shoot** !
+
+**to battle through** ⇒ To force the passage or acceptance of something ⇒ They had **to battle through** thick mud to reach construction workers.
+
+**prejudice** ⇒ bias ⇒ The greatest obstacle to progress is **prejudice.**
+
+**as always** ⇒ used to say that something was expected because it always happens ⇒ **As always**, dinner was delicious.
+
+**sublime** ⇒ holy / extremely good, beautiful, or enjoyable ⇒ From the **sublime** to the ridiculous is only one step. / The location of the hotel is **sublime**.
+
+**intend** ⇒ to have as a plan or purpose ⇒ Do you **intend** to continue your studies?
+
+**wise** ⇒ having or showing the ability to make good judgments, based on a deep understanding and experience of life ⇒ It is a **wise** man that makes no mistakes
+
+**facility** ⇒ a place, especially including buildings, where a particular activity happens / an ability to do something easily or well ⇒ The child-care centre is a useful **facility** for working parents. / She has an amazing **facility** for languages.
+
+****vigilant** ⇒ alertly watchful especially to avoid danger ⇒ Life is not all great, keep **vigilant!**
+
+**arise** ⇒ to happen ⇒ Only a finite number of situations can **arise.**
+
+**finite** ⇒ having a limit or end ⇒ The physical universe is **finite** in space and time.
