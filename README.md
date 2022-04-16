@@ -1,4 +1,15 @@
-# Words
+# Useful webpages :
+
+### Example sentences : https://sentencedict.com
+### Dictionary 1 : https://dictionary.cambridge.org
+### Dictionary 2 : https://www.thefreedictionary.com
+### Dictionary 3 : https://www.merriam-webster.com/dictionary
+### Youtube Channel 1 (Learn English with tv series) : https://www.youtube.com/channel/UCKgpamMlm872zkGDcBJHYDg
+### Youtube Channel 2 (Speak English With Vanessa) : https://www.youtube.com/channel/UCxJGMJbjokfnr2-s4_RXPxQ
+
+
+
+# Words : 
 
 **a cross between x and y** ⇒ many people say that Australian English is **a cross between** American **and** British English.
 
