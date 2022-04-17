@@ -241,3 +241,63 @@
 **arise** ⇒ to happen ⇒ Only a finite number of situations can **arise.**
 
 **finite** ⇒ having a limit or end ⇒ The physical universe is **finite** in space and time.
+
+
+**forgive** ⇒ To give up resentment against or stop wanting to punish ⇒ To **forgive** our enemies is a charming way of revenge.
+
+**punishment** ⇒ The imposition of a penalty or deprivation for wrongdoing ⇒ **Punishment** is justice for the unjust.
+
+**ensure** ⇒ to secure or guarantee; safeguard; make sure or certain ⇒ The airline is taking steps to **ensure** safety on its aircraft.
+
+**carriage** ⇒ A wheeled vehicle, especially a four-wheeled horse-drawn passenger vehicle / train ⇒ We'll be sitting in the second **carriage**.
+
+**mad** ⇒ Mentally deranged / crazy /  ⇒ What a **mad** thing to do!
+
+**witty** ⇒ marked by or full of clever humor or wit ⇒ They were very intellectual and **witty**.
+
+**quirky** ⇒ interesting / an idiosyncrasy / strange ⇒ I like his **quirky** sense of humour.
+
+**sane** ⇒ mentally healthy. ⇒ The only thing that kept me **sane** was music.
+
+**insane** ⇒ afflicted with mental derangement ⇒ An **insane** person is unaccountable for his actions.
+
+**arrangement** ⇒ the act of arranging or being arranged ⇒ We decided to make the **arrangement** permanent.
+
+**conformist** ⇒ someone who behaves or thinks like everyone else, rather than being different ⇒ Boys tend to be less **conformist** than girls.
+
+**applause** ⇒ clap clap / Approval expressed especially by the clapping of hands. ⇒ The **applause** burst from the crowd.
+
+**rapturous** ⇒ showing extreme pleasure and happiness or excitement ⇒ He left the stage to **rapturous** applause.
+
+**struggle** ⇒ to proceed with difficulty or with great effort ⇒ A strong man will **struggle** with storms of fate.
+
+**exert** ⇒ to put forth (strength, effort, etc.) ⇒ You'll have to **exert** yourself more if you want to pass your exam.
+
+**possession** ⇒ the act of having or taking into control ⇒ The city can take **possession** of the abandoned buildings.
+
+**sour** ⇒ taste or smell, like a lemon, and not sweet. ⇒ Love is sweet in the beginning, but **sour** in the end.
+
+**chiefly** ⇒ most importantly ⇒ Icecream is **chiefly** made of milk and sugar.
+
+**perspiration** ⇒ the action or process of perspiring ⇒ My shirt was soaked in **perspiration*.***
+
+**crayon** ⇒ a small stick of coloured wax used for drawing ⇒ She coloured the pictures with a yellow **crayon.**
+
+**scrunch** ⇒ to draw or squeeze together tightly ⇒ The dry leaves **scrunched** under our feet.
+
+**freak** ⇒ to become or cause someone to become extremely emotional ⇒ I **freak out** every time I see a bug.
+
+**provoke** ⇒ to cause a reaction, especially a negative one ⇒ Dairy products may **provoke** allergic reactions in some people.
+
+**rouse** ⇒ to cause to stop sleeping / to wake someone up or make someone more active or excited ⇒ You must **rouse** yourself to action. / I usually **rouse** at six in the morning.
+
+**apparently** ⇒ used to say that something seems to be true, although it is not certain ⇒ **Apparently**  the company is losing a lot of money.
+
+**somehow** ⇒ in a way that is not known or certain ⇒ Don't worry, we'll get the money back **somehow*.***
+
+**sweep** ⇒ to clean something, especially a floor by using a brush to collect the dirt into one place from which it can be removed / to move, especially quickly and powerfully ⇒ Don't forget to **sweep** under the beds.
+
+**privileged** ⇒ having a privilege ⇒ I consider myself highly **privileged** to have this opportunity.
+
+**consist** ⇒ to be something / to be in agreement on every point ⇒ The team **consists**
+ of four Europeans and two Americans.
