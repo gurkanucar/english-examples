@@ -1,0 +1,698 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Words</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	text-indent: -1.7em;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(55, 53, 47, 1);
+}
+.highlight-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.highlight-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.highlight-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.highlight-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.highlight-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.block-color-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.block-color-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.block-color-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.block-color-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.block-color-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-pink { background-color: rgba(245, 224, 233, 1); }
+.select-value-color-purple { background-color: rgba(232, 222, 238, 1); }
+.select-value-color-green { background-color: rgba(219, 237, 219, 1); }
+.select-value-color-gray { background-color: rgba(227, 226, 224, 1); }
+.select-value-color-opaquegray { background-color: rgba(255, 255, 255, 0.0375); }
+.select-value-color-orange { background-color: rgba(250, 222, 201, 1); }
+.select-value-color-brown { background-color: rgba(238, 224, 218, 1); }
+.select-value-color-red { background-color: rgba(255, 226, 221, 1); }
+.select-value-color-yellow { background-color: rgba(253, 236, 200, 1); }
+.select-value-color-blue { background-color: rgba(211, 229, 239, 1); }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="610d97ec-3be9-4fdb-b250-25c7ac2d92d4" class="page sans"><header><img class="page-cover-image" src="https://www.notion.so/images/page-cover/met_william_morris_1877_willow.jpg" style="object-position:center 90%"/><div class="page-header-icon page-header-icon-with-cover"><span class="icon">😃</span></div><h1 class="page-title">Words</h1></header><div class="page-body"><p id="f2ddcdef-8cdc-47f8-80f1-b50b6649fe4e" class=""><strong><mark class="highlight-orange_background">a cross between x and y</mark></strong> ⇒ many people say that Australian English is <strong>a cross between</strong> American <strong>and </strong>British English.</p><p id="83b66507-8473-4151-8aff-1fa09cb4e6e5" class=""><strong><mark class="highlight-orange_background">have a crush on someone</mark></strong> ⇒ Rick <strong>has a crush on</strong> Lucy and is planning to ask her out. </p><p id="99b81e37-1d47-411f-8eff-5ba9f4cc5ca0" class=""><strong><mark class="highlight-orange_background">get out of (an obligation)</mark></strong> ⇒ to avoid doing something that you’re expected to do. ⇒ I promised my niece to take her to the zoo and I can’t<strong> get out of</strong> it now.</p><p id="6ffa8eff-6347-4f47-aec6-f342e0d8634b" class=""><strong><mark class="highlight-orange_background">to be straight with someone</mark></strong> ⇒ to be honest with someone ⇒ She’s always <strong>been straight with</strong> you so she deserves you also be honest with her.</p><p id="8ca6888c-e785-4200-98fb-bf61f00f98af" class=""><strong><mark class="highlight-orange_background">to trip someone</mark></strong> ⇒ To cause someone to fall by putting your foot in front of the other person’s feet.</p><p id="ca67f257-d95e-4832-aaab-242b65ca0547" class=""><strong><mark class="highlight-orange_background">ankle</mark></strong>  ⇒ the joint between the foot and the leg.</p><p id="60049473-64ff-428c-8cf0-4040aa3441e1" class=""><strong><mark class="highlight-orange_background">sneak (snuck ⇒ past)</mark></strong> ⇒ to walk quietly, especially on tiptoes so that nobody sees you. ⇒ She <strong>snuck </strong>out of the house late at night when her parents were sleeping.</p><p id="523af85b-434a-49bb-aa80-72ff7822bca4" class=""><strong><mark class="highlight-orange_background">uptight</mark></strong> ⇒ Someone who is uptight - tight opposite of relaxed - isn‘t able to relax, is always worrying about something and getting upset over small things. ⇒ I know she’s a responsible student , but even during vacation she was <strong>uptight </strong>about an exam 3 months from then.</p><p id="a25f69f4-8f2a-441c-ad03-fb69dc41bb29" class=""><strong><mark class="highlight-orange_background">to judge</mark></strong> ⇒ Judging someone usually carries a negative connotation as it often signifies you reach a conclusion about a person without knowing them well. ⇒ They all <strong>judged </strong>him when he joined the class, but shortly afterwards he showed he was a brilliant student.</p><p id="b9772be8-03ff-4456-8093-a4763360973d" class=""><strong><mark class="highlight-orange_background">swing</mark></strong> ⇒ a toy for children that is usually found in playgrounds and which consists of a seat and two ropes that hang from a bar.</p><p id="d4833aed-563c-4b30-ab96-7985a2fcb46c" class=""><strong><mark class="highlight-orange_background">run towards / away from</mark></strong> ⇒ towards is a get closer to something and away from meaning is getting far away (increase distance you and an object) from something.</p><p id="6002ef07-e2fb-4574-8cf2-49f27da78bff" class=""><strong><mark class="highlight-orange_background">to stare</mark></strong> ⇒ if you stare at someone, you look at that person for a long period of time. ⇒ Everyone <strong>stared at</strong> the people who had the accident but few helped.</p><p id="c5ea67b1-fe77-49f2-9a8e-64f388ed3d1a" class=""><strong><mark class="highlight-orange_background">graceful</mark></strong><strong> </strong>⇒ With elegance; in a skillful manner. ⇒ Her dance moves are so <strong>graceful.</strong></p><p id="f18240ac-caf1-4bc8-bce5-3e0f00c28434" class=""><strong><mark class="highlight-orange_background">look out (for something)</mark></strong> ⇒ Used to tell someone to pay attention at his or her surroundings in order to avoid a particular danger. ⇒ If you continue down this street, <strong>look out for</strong> the dog.</p><p id="b91f24a0-3ab9-49ff-811d-32a22daff343" class=""><strong><mark class="highlight-orange_background">go easy on someone</mark></strong> ⇒ more gentle and less strict or angry to someone or use less something ⇒ The students might response better if the teacher <strong>went easy on </strong>them.</p><p id="9531c7dd-7a68-44b6-a1a0-db56724b9f71" class=""><mark class="highlight-orange_background"><strong>fry-up</strong></mark> ⇒ Full-Monty: British slang for something that is complete ⇒ It’s all great- Full English - Full Monty - fry-up - try it.</p><p id="6fd1b2f4-aba6-4fc4-8cec-e1ef64c6b3d5" class=""><strong><mark class="highlight-orange_background">mean</mark></strong><strong> </strong>⇒ If someone is mean, they are unkind or cruel to another person ⇒ I hate you because you were <strong>mean </strong>to me.</p><p id="553fef75-07b4-407e-ab93-484c046b82cc" class=""><strong><mark class="highlight-orange_background">to congeal</mark></strong> ⇒ change from a liquid to a solid state by or as if by cold. ⇒ Oil <strong>congeals </strong>at cold temperatures.</p><p id="6a1ecc43-5e93-4bd2-986c-91209bcd8fab" class=""><mark class="highlight-orange_background"><strong>dabble</strong></mark> ⇒ to work or involve oneself superficially or in intermittently especially in a secondary activity or interest. ⇒ I also <strong>dabble </strong>in robotic stuff.</p><p id="d08ddbea-a0f8-476d-a459-ee96c62d8721" class=""><strong><mark class="highlight-orange_background">awkward</mark></strong> ⇒ Not graceful; ungainly ⇒ You just put me in an <strong>awkward </strong>position.</p><p id="b73e64fd-a9cc-4341-a50f-b227b8f81a11" class=""><mark class="highlight-orange_background"><strong>overhauling</strong></mark> ⇒ renewing, fixing ⇒ A mechanic is coming to <strong>overhaul </strong>the engine.</p><p id="216a62a7-afb2-42dc-841d-d5effb6c4235" class=""><strong><mark class="highlight-orange_background">dispose</mark></strong> ⇒  To get rid of; throw out ⇒ Start a compost pile to <strong>dispose </strong>of food waste.</p><p id="eac0c6c9-07ee-4716-9b47-3336ec65d195" class=""><mark class="highlight-orange_background"><strong>suffer</strong></mark> ⇒ to undergo or feel pain or great distress. ⇒ I <strong>suffer</strong> for my own sins</p><p id="8c6e1a7b-e5ac-4537-a41e-f70df19109e7" class=""><strong><mark class="highlight-orange_background">affordable</mark></strong> ⇒ reachable, economic ⇒ The restaurant serves good food at <strong>affordable</strong> prices.</p><p id="c1156fdf-b70a-4c43-a811-5b38c9ad709d" class=""><mark class="highlight-orange_background"><strong>I beg to differ</strong></mark> ⇒ To politely disagree with someone else.</p><p id="48a0b5d8-ba38-4038-b2dc-29d305a54854" class=""><strong><mark class="highlight-orange_background">betray</mark></strong> ⇒ break the someone’s trust ⇒ No one will ever <strong>betray</strong> me again.</p><p id="8eb82481-9ec6-4704-8da3-4bbb7177dbba" class=""><strong><mark class="highlight-orange_background">voyage</mark></strong><strong> </strong>⇒ long trip ⇒ The young couple decided to start their <strong>voyage</strong> immediately.</p><p id="f9b76bf1-16a0-467f-91e4-1456465b8f03" class=""><mark class="highlight-orange_background"><strong>I’m pretty sure</strong></mark><strong> </strong>⇒ the pretty decreases the intensity of the phrase ⇒ You’re cute, funny. Really? <strong>I’m pretty sure</strong>?.</p><p id="2aed4b78-316a-4e2c-bc99-a8dc09c71f01" class=""><strong><mark class="highlight-orange_background">sore</mark></strong> ⇒ feeling physical pain, hurting ⇒ Her throat was <strong>sore </strong>and she was sneezing and coughing.</p><p id="d2fc96fc-09de-44db-813d-0c2b1fd5a9ca" class=""><strong><mark class="highlight-orange_background">curtain</mark></strong> ⇒ home accessories to window ⇒ He lowered the <strong>curtain</strong> dropping the room into darkness.</p><p id="2d61d2dd-d749-4f5f-8f6a-5999adf59324" class=""><strong><mark class="highlight-orange_background">sue</mark></strong> ⇒ law to initiate or pursue legal proceedings. ⇒ I&#x27;m good at spotting trends, so <strong>sue </strong>me.</p><p id="111d1536-942d-4133-bd02-9f4784b9fde8" class=""><mark class="highlight-orange_background"><strong>pursuit</strong></mark> ⇒ watching, tracking, following  ⇒ The sounds of <strong>pursuit</strong> grew fainter.</p><p id="67caa7f0-ac84-4127-bee6-d30b089c255e" class=""><strong><mark class="highlight-orange_background">here and there</mark></strong> ⇒ you can use when you don’t want to be specific about something ⇒ We went <strong>here and there</strong> looking for berries.</p><p id="c36c3901-fd02-422a-b959-b5026fc4532e" class=""><strong><mark class="highlight-orange_background">other than that</mark></strong> ⇒ “aside from that” or “apart from that”  ⇒ It is a cold country but <strong>other than that</strong> better than here.</p><p id="76694656-1bf1-40d3-a431-58874f61eaf3" class=""><mark class="highlight-orange_background"><strong>oatmeal</strong></mark> ⇒ <strong></strong>Meal that is made from oats  ⇒ She finished her <strong>oatmeal</strong> and pored herself a cup of coffee.</p><p id="c07f8acd-fa8e-4125-a03f-a9ced3a76249" class=""><strong><mark class="highlight-orange_background">you/I can take it</mark></strong> ⇒ when someone is physically enough to do something dangerous or difficult ⇒ It’s hard to climb but <strong>you can take it</strong>.</p><p id="701ffda9-bd48-47cd-84db-1554486b9c20" class=""><strong><mark class="highlight-orange_background">auxiliary</mark></strong> ⇒ spare, backup, assistant ⇒ The hospital has an <strong>auxiliary</strong> power system in case of blackout.</p><p id="8f31443c-cd37-479a-99dd-3143b59dc81b" class=""><strong><mark class="highlight-orange_background">give me a chance to ......</mark></strong> ⇒ We use the collocation to give somone the chance (to do something) to say that we give someone an opportunity to do something ⇒ <strong>Give me a chance to</strong> redeem myself.</p><p id="3a57777f-f769-4b90-8ef8-ecccf7663512" class=""><mark class="highlight-orange_background"><strong>redeem</strong></mark><strong> </strong>⇒ to succeed or do something good after one has failed or done something bad / recover something ⇒ You can <strong>redeem </strong>the coupon at any store. / I give her the chance to <strong>redeem</strong>
+ herself.</p><p id="acc09377-4a2d-42f2-9e7c-6998dcacfc82" class=""><mark class="highlight-orange_background"><strong>lawn</strong></mark><strong> </strong>⇒ green plants on the ground / grass ⇒ The dog is rolling on the <strong>lawn</strong><em><strong>.</strong></em></p><p id="c5aaf974-f89e-4ddf-8635-3e3a89edc1cb" class=""><mark class="highlight-orange_background"><strong>walk a mile in someone’s shoes</strong></mark> ⇒ dont judge me before don’t know the details  ⇒ You should try <strong>walking a mile in my shoes</strong>.</p><p id="97f2e0a0-00aa-4c30-b16f-56e39a4d84a8" class=""><mark class="highlight-orange_background"><strong>intelligible</strong></mark><strong> </strong>⇒ capable of being understood or comprehended ⇒ The report needs to be <strong>intelligible</strong> to the client.</p><p id="20855e18-370c-4c63-82ff-006ed12054b5" class=""><mark class="highlight-orange_background"><strong>to throw some-one(thing) off / throw someone off the trail</strong></mark> ⇒ To misdirect some-one(thing) away from their point of pursuit, false information, confusing ⇒ A busy morning can <strong>throw off</strong> my entire daily schedule.</p><p id="9ce4334d-9c74-4760-a2a5-a36112f7c2c4" class=""><mark class="highlight-orange_background"><strong>do you mind?</strong></mark> ⇒ usually in questions or in negative statements to ask for permission or to say something doesn’t annoy us. ⇒ Do you mind if I smoke? / Do you mind if I use Lombok?</p><p id="9b1b7272-c029-411b-8052-9760188cc1d6" class=""><mark class="highlight-orange_background"><strong>disappointing</strong></mark> ⇒ when it is not as good as you hoped or expected ⇒ Her <strong>disappointing</strong>
+ exam results are entirely due to her inattention in class.</p><p id="a169ec32-04d9-4132-ac8c-b019b0087154" class=""><mark class="highlight-orange_background"><strong>somewhat</strong></mark><strong> </strong>⇒ a little bit ⇒ I was <strong>somewhat </strong>surprised to see him.</p><p id="14052350-2cda-441b-89e3-c4260ad0f525" class=""><mark class="highlight-orange_background"><strong>excuse</strong></mark><strong> </strong>⇒ an expression of regret for failure to do something  ⇒ Ignorance of the law is no <strong>excuse</strong>
+ of breaking it.</p><p id="2d3226c1-7aac-4301-9753-bcef3069860c" class=""><mark class="highlight-orange_background"><strong>as opposed to</strong></mark> ⇒ similar with instead of ⇒ Students discuss ideas, <strong>as opposed to</strong> just copying from books.</p><p id="d54e5fbe-8f91-4835-9cbb-3add1ee2dd5f" class=""><mark class="highlight-orange_background"><strong>pretending</strong></mark> ⇒ roleplay ⇒ Some people <strong>pretend </strong>to despise the things they cannot have.</p><p id="99aac37e-df9e-4644-8136-398111acca73" class=""><mark class="highlight-orange_background"><strong>did as he pleased</strong></mark> ⇒ as she/he wanted  ⇒ With a few exceptions, they <strong>did as he pleased.</strong></p><p id="ffac1e2b-e085-4304-9ee8-0da3b6eeda41" class=""><mark class="highlight-orange_background"><strong>despise</strong></mark> ⇒ to look down on with disrespect or aversion  ⇒ Do not <strong>despise</strong><em><strong> </strong></em>your enemy.</p><p id="088d8db5-bd20-4260-9f8f-883871234a09" class=""><mark class="highlight-orange_background"><strong>negligible</strong></mark> ⇒ <strong></strong>so small or unimportant or of so little consequence  ⇒ The risks were represented as <strong>negligible.</strong></p><p id="e08b1e4d-6341-4389-b1ef-2e0cf02bb5c0" class=""><mark class="highlight-orange_background"><strong>consequence</strong></mark> ⇒ result / conclusion / outcome ⇒ The accident was the inevitable <strong>consequence </strong>of carelessness.</p><p id="471fbf97-8a82-4c1d-accd-53b35098c759" class=""><strong><mark class="highlight-orange_background">inevitable</mark></strong> ⇒ incapable of being avoided or evaded ⇒ It seems <strong>inevitable</strong> that they&#x27;ll lose.</p><p id="a458b91a-88c3-4711-a46c-cf7f74660132" class=""><mark class="highlight-orange_background"><strong>brace</strong></mark> ⇒ to prepare / being ready for something ⇒ <strong>Brace</strong> yourself for a new challenge!</p><p id="bdfc1723-1a25-4653-ad51-43998c39c0cd" class=""><mark class="highlight-orange_background"><strong>investigate</strong></mark><strong> </strong>⇒ <strong></strong>to make a systematic examination / research / investigation ⇒ His job is to <strong>investigate</strong> supernatural phenomena.</p><p id="419d681d-49cc-43f2-963a-82eedc5e034d" class=""><mark class="highlight-orange_background"><strong>blackmail</strong></mark> ⇒ extortion or coercion by threats especially of public exposure or criminal prosecution ⇒ Barney, you can&#x27;t <strong>blackmail </strong>us into lying to Nora</p><p id="ae213f4c-074d-4a2b-b083-1dd61f8fc9e7" class=""><mark class="highlight-orange_background"><strong><strong>intimacy</strong></strong></mark><strong><strong> </strong></strong>⇒ The condition of being intimate. / sincere ⇒ I sensed a close <strong>intimacy</strong> between them.</p><p id="5b585dab-f601-4eed-82d8-83a85a480719" class=""><mark class="highlight-orange_background"><strong>demanding</strong></mark> ⇒ we usually say that to say something requires a lot of attention or effort. ⇒ She has a very <strong>demanding</strong> schedule.</p><p id="ceadfa0f-58d9-43f9-8a91-cf7bb41b44a4" class=""><mark class="highlight-orange_background"><strong>have to wait and see</strong></mark> ⇒ we need to time for see the outcome ⇒  &#x27;Is he going to get better?&#x27; &#x27;I don&#x27;t know, we&#x27;ll just <strong>have to wait and see.</strong>&#x27;</p><p id="55559d59-ae9d-4bb0-8d1b-8e1116b686ad" class=""><mark class="highlight-orange_background"><strong>it&#x27;s alright</strong></mark> ⇒ it is okay, no problem ⇒ He says <strong>it&#x27;s alright</strong> but I think he&#x27;s keeping something from me.</p><p id="7ec8d4ed-22f5-4bd6-b3a7-b1bf9467f163" class=""><mark class="highlight-orange_background"><strong>I am by myself</strong></mark> ⇒ I am alone</p><p id="d548d14a-0f95-4e71-a0c6-5d841b44ec91" class=""><mark class="highlight-orange_background"><strong>distinguish</strong></mark><strong> </strong>⇒ seperate or defining ⇒ It is important to <strong>distinguish</strong> between cause and effect.</p><p id="f0adb7e6-1b76-400b-b888-f965adf40555" class=""><mark class="highlight-orange_background"><strong>hilarious</strong></mark> ⇒ extremely funny ⇒ We thought it was <strong>hilarious </strong>when we first heard about it.</p><p id="26fbf843-0612-4585-baef-92e43c61de2b" class=""><mark class="highlight-orange_background"><strong>ridiculous</strong></mark><strong> </strong>⇒ extremely silly or unreasonable ⇒ He often says <strong>ridiculous</strong> things.</p><p id="4be84fc6-181c-47b9-a226-16281136a30e" class=""><mark class="highlight-orange_background"><strong>bring it on</strong></mark> ⇒ used to express confidence in meeting a challenge. ⇒ GS versus FB - bring it on!</p><p id="a247c0ee-a6d8-4a25-ba96-66803c945d70" class=""><strong><mark class="highlight-orange_background">compensation</mark></strong> ⇒ payment / money that is paid to someone in exchange for something that has been lost or damaged or for some problem ⇒  She got some <strong>compensation</strong> for damages.</p><p id="bb63d201-4498-49d0-865c-e07e5a0cfcae" class=""><strong><mark class="highlight-orange_background">profit</mark></strong> ⇒ earnings / money that is earned in trade or business after paying the costs of producing and selling goods and services ⇒ We&#x27;ll divide the <strong>profit</strong> fifty-fifty.</p><p id="122b8244-2b02-4059-a255-337c5a9e3979" class=""><strong><mark class="highlight-orange_background">diversity</mark></strong> ⇒ various / the fact of many different types ⇒ Our party believes in encouraging cultural <strong>diversity</strong>, not diversion.</p><p id="ef32c85f-a9dc-424b-9f20-c3ae348e03df" class=""><strong><mark class="highlight-orange_background">worth it</mark></strong> ⇒ Worth the cost or work involved to attain ⇒ All our hard work will be <strong>worth it</strong>
+ in the long run .</p><p id="56463f96-eeeb-4171-aec8-0319ae677086" class=""><mark class="highlight-orange_background"><strong>anyway</strong></mark> ⇒ <strong></strong>in any way whatever ⇒ I must do it <strong>anyway</strong>.</p><p id="35b33b48-0206-4655-a7aa-ffd61534592f" class=""><strong><mark class="highlight-orange_background">recipient</mark></strong><strong><strong> </strong></strong>⇒ one that receives ⇒ He was a <strong>recipient</strong> of the Civilian Service Award.</p><p id="f254f87c-bf2d-4581-afc9-29cae3104e0a" class=""><mark class="highlight-orange_background"><strong>miserable</strong></mark> ⇒ extremely unhappy ⇒ Refugees everywhere lead <strong>miserable</strong> lives.</p><p id="3dcf73b1-4fb4-4668-a5b3-e7adf0f4b391" class=""><mark class="highlight-orange_background"><strong>will you pass</strong></mark> ⇒ ⇒ How <strong>will you pass</strong> your Christmas holiday?</p><p id="67dc150d-2184-42c5-a5ae-e6587e1251e7" class=""><mark class="highlight-orange_background"><strong>is that right?</strong></mark> ⇒ Is that really true? ⇒ Here you go. Four copies, <strong>is that right?</strong></p><p id="52892995-d4a4-40ed-afef-b3eacc794641" class=""><mark class="highlight-orange_background"><strong>works out</strong></mark> ⇒ a practice or exercise / utility ⇒  I hope it all <strong>works out</strong> for Gina and Andy. </p><p id="2850e636-440f-4a1e-b4b9-29c4927e6b3c" class=""><mark class="highlight-orange_background"><strong>counselling</strong></mark> ⇒ is the prcess of listening to someone who has a problem and giving them advice  ⇒ <strong>Counselling </strong>is helping him work through this trauma.</p><p id="18630d5c-fe20-41ec-a5e5-355d6b332656" class=""><mark class="highlight-orange_background"><strong>regret</strong></mark> ⇒ to be very sorry for ⇒ One wrong thought may cause a lifelong <strong>regret</strong><em><strong>.</strong></em></p><p id="d98c8551-f710-4e44-9adc-7ff7700d32c1" class=""><strong><mark class="highlight-orange_background">rough patch</mark></strong> ⇒ A period of trouble, difficulty, or hardship. ⇒ My girlfriend and I were going through a <strong>rough patch.</strong></p><p id="7a63a3ba-72cd-43de-bc65-841757aeb9ab" class=""><mark class="highlight-orange_background"><strong>instinctively</strong></mark> ⇒ in a way that is not thought about, planned, or developed by training ⇒ I <strong>instinctively</strong> raised my arm to protect my face.</p><p id="76a22704-1a88-4e80-ae36-bf40a0b0c79d" class=""><mark class="highlight-orange_background"><strong>barely</strong></mark> ⇒ by the smallest amount / hardly ⇒ He <strong>barely</strong> escaped being pawed by the dog.</p><p id="43b8cbc0-d69d-4f22-a3fa-e11d386f524d" class=""><mark class="highlight-orange_background"><strong>escalated</strong></mark> ⇒ to become or make something become greater or more serious ⇒ House prices have <strong>escalated</strong> rapidly.</p><p id="4569bdc8-49f6-439c-811e-b7a9d2f9aa31" class=""><mark class="highlight-orange_background"><strong>on speaking terms</strong></mark> ⇒ friendly enough to talk / talking with someone ⇒ Are you <strong>on speaking terms</strong>
+ with him?</p><p id="15cd7c90-6a1c-4fdc-ad00-8b52cc247891" class=""><mark class="highlight-orange_background"><strong>fell out</strong></mark> ⇒ to argue with someone and stop being friendly with them ⇒ He left home after <strong>falling out</strong> with his parents.</p><p id="99089a65-6f7c-48c6-857a-39faf1d96a7f" class=""><mark class="highlight-orange_background"><strong>profession</strong></mark> ⇒ job ⇒ He is a engineer by <strong>profession</strong>.</p><p id="fd007e33-3e48-4a61-9689-910cc98c9559" class=""><mark class="highlight-orange_background"><strong>perhaps</strong></mark> ⇒ possibly but not certainly ⇒ <strong>Perhaps</strong> you can&#x27;t control your job, but you may be able to make other changes in your life.</p><p id="00333660-d1a4-4d02-a839-a351e715a772" class=""><mark class="highlight-orange_background"><strong>mild</strong></mark> ⇒ kind , gentle ⇒  He is a <strong>mild</strong>, inoffensive man.</p><p id="4450d127-f56a-4ca7-8ef2-5ddcad5c5483" class=""><mark class="highlight-orange_background"><strong>viable</strong></mark> ⇒ <strong></strong>capable of living / works out ⇒ Solar power is now a <strong>viable</strong> alternative to oil-fired water heaters.</p><p id="98816a7f-05bc-486b-810e-fbc3641b23eb" class=""><mark class="highlight-orange_background"><strong>double booking</strong></mark> ⇒ to promise the same room, seat, ticket, etc. to more than one person or group ⇒ The room was double-booked so they had to give us a different one.</p><p id="f13a70c7-e25d-4876-8767-ee5cbc432c11" class=""><mark class="highlight-orange_background"><strong>favorable</strong></mark> ⇒  Advantageous; helpful, suitable ⇒ We found that most people are <strong>favorable</strong> to the idea.</p><p id="f28475de-17c0-40f8-b223-14eebd93057e" class=""><mark class="highlight-orange_background"><strong>madly</strong></mark> ⇒ with a lot of energy and enthusiasm ⇒ She fell <strong>madly</strong> in love with him.</p><p id="af770334-e09a-4707-b00e-68ac4a8e68d1" class=""><mark class="highlight-orange_background"><strong>blowing you a kiss</strong></mark> ⇒ sending kiss</p><p id="0d8f63c1-7b22-4cc2-a918-618a56f84e41" class=""><mark class="highlight-orange_background"><strong>let loose</strong></mark> ⇒ to allow (someone or something) to move or go freely ⇒ He was at last <strong>let loose</strong> in the kitchen.</p><p id="ac462e57-c201-41f4-99ce-eb67eb5dae47" class=""><mark class="highlight-orange_background"><strong>figure out</strong></mark> ⇒ calculating, solving ⇒ Father is trying to <strong>figure out</strong> his tax.</p><p id="0133e4b9-fba0-4aa0-8605-bfe2df305f77" class=""><mark class="highlight-orange_background"><strong>wondrous</strong></mark> ⇒ marvel / amazing ⇒ It was a <em><strong>wondrous</strong></em><em> </em>thing to see the sea for the first time.</p><p id="5e1adf44-2bc8-49d8-85bf-8ba8eef0740e" class=""><mark class="highlight-orange_background"><strong>wheezing</strong></mark> ⇒ to breathe with difficulty usually with a whistling sound ⇒ I could hear the old man behind me <strong>wheezing</strong>.</p><p id="824a04a0-5720-4a60-a4a4-449a486d71b4" class=""><mark class="highlight-orange_background"><strong>jealous</strong></mark> ⇒ upset and angry because someone that you love seems interested in another person ⇒ I was <strong>jealous</strong> of Mary&#x27;s new bicycle.</p><p id="e6fdf540-feba-441e-b331-1c73034fcc5d" class=""><mark class="highlight-orange_background"><strong>oddly</strong></mark> ⇒ weird / in a strange or surprising way ⇒ She&#x27;s been behaving very <strong>oddly</strong> lately.</p><p id="79a87beb-450e-49a0-a59b-781cd7b620ed" class=""><mark class="highlight-orange_background"><strong>distract</strong></mark> ⇒ to make someone stop giving their attention to something ⇒ Try not to <strong>distract</strong> the other students.</p><p id="7e640cf3-4cce-4ec1-b0e1-f5f38672cf1a" class=""><mark class="highlight-orange_background"><strong>lot of it</strong></mark> ⇒ many of them ⇒ A <strong>lot of it</strong> is about management process and organisation.</p><p id="0346c229-ad0a-427f-b593-ccc4244fe301" class=""><mark class="highlight-orange_background"><strong>likewise</strong></mark> ⇒ mee too / in the same way ⇒ He is our friend and <strong>likewise </strong>our leader.</p><p id="a5d70910-cf63-47dd-b857-7ea536168ead" class=""><mark class="highlight-orange_background"><strong>conducive</strong></mark> ⇒ suitable, appropriate ⇒ Daylight is highly <strong>conducive</strong> to good plant growth.</p><p id="f1a45544-a207-4a4a-b507-bfa6209cfaad" class=""><mark class="highlight-orange_background"><strong>take a shoot</strong></mark> ⇒ ⇒ When one chance comes , just <strong>take a shoot</strong> !</p><p id="9b8a3807-073b-4f61-a967-84dafa4c8dc4" class=""><mark class="highlight-orange_background"><strong>to battle through</strong></mark> ⇒ To force the passage or acceptance of something ⇒ They had <strong>to battle through</strong> thick mud to reach construction workers.</p><p id="a4bd368d-09f6-4f3e-a475-7809098332cb" class=""><mark class="highlight-orange_background"><strong>prejudice</strong></mark> ⇒ bias ⇒ The greatest obstacle to progress is <strong>prejudice.</strong></p><p id="322b97db-d9f5-45a9-821a-8472787afb84" class=""><mark class="highlight-orange_background"><strong>as always</strong></mark> ⇒ used to say that something was expected because it always happens ⇒ <strong>As always</strong>, dinner was delicious.</p><p id="7405820e-b3f5-4bb3-a575-455f36a18654" class=""><mark class="highlight-orange_background"><strong>sublime</strong></mark> ⇒ holy / extremely good, beautiful, or enjoyable ⇒ From the <strong>sublime</strong> to the ridiculous is only one step. / The location of the hotel is <strong>sublime</strong>.</p><p id="9a2da32d-d861-47c1-8f38-5cb33728e1d7" class=""><mark class="highlight-orange_background"><strong>intend</strong></mark> ⇒ to have as a plan or purpose ⇒ Do you <strong>intend</strong> to continue your studies?</p><p id="5b00321e-12b2-4601-8828-a03c5839bfc4" class=""><mark class="highlight-orange_background"><strong>wise</strong></mark><strong> </strong>⇒ having or showing the ability to make good judgments, based on a deep understanding and experience of life ⇒ It is a <strong>wise</strong> man that makes no mistakes</p><p id="81fbf94f-1022-4c8b-ace7-54f0f7f42106" class=""><mark class="highlight-orange_background"><strong>facility</strong></mark> ⇒ a place, especially including buildings, where a particular activity happens / an ability to do something easily or well ⇒ The child-care centre is a useful <strong>facility</strong> for working parents. / She has an amazing <strong>facility</strong> for languages.</p><p id="3b48910c-b6a1-4dd4-aacd-82e077f2542d" class=""><mark class="highlight-orange_background"><strong><strong>vigilant</strong></strong></mark><strong><strong> </strong></strong>⇒ alertly watchful especially to avoid danger ⇒ Life is not all great, keep <strong>vigilant!</strong></p><p id="16f1be94-a0fa-4a0a-b7be-703ef4109521" class=""><mark class="highlight-orange_background"><strong>arise</strong></mark><strong> </strong>⇒ to happen ⇒ Only a finite number of situations can <strong>arise.</strong></p><p id="a4eb4783-ea06-42ef-884b-83ef17240ac4" class=""><mark class="highlight-orange_background"><strong>finite</strong></mark><strong> </strong>⇒ having a limit or end ⇒ The physical universe is <strong>finite</strong> in space and time.</p><p id="ab4109f1-9dbe-41f1-bdd5-45db68a55a3e" class=""><mark class="highlight-orange_background"><strong>forgive</strong></mark><strong> </strong>⇒ To give up resentment against or stop wanting to punish ⇒ To <strong>forgive</strong> our enemies is a charming way of revenge.</p><p id="c0c89987-0753-4db4-8ce7-d3cfd73221ba" class=""><mark class="highlight-orange_background"><strong>punishment</strong></mark><strong> </strong>⇒ The imposition of a penalty or deprivation for wrongdoing ⇒ <strong>Punishment</strong> is justice for the unjust.</p><p id="dac74c74-9edd-4623-8d8e-95e9ff309200" class=""><mark class="highlight-orange_background"><strong>ensure</strong></mark><strong> </strong>⇒ to secure or guarantee; safeguard; make sure or certain ⇒ The airline is taking steps to <strong>ensure</strong> safety on its aircraft.</p><p id="91acbee7-3972-47c6-bd99-8e94a5ba6b1d" class=""><mark class="highlight-orange_background"><strong>carriage</strong></mark><strong> </strong>⇒ A wheeled vehicle, especially a four-wheeled horse-drawn passenger vehicle / train ⇒ We&#x27;ll be sitting in the second <strong>carriage</strong>.</p><p id="6d15c312-9626-471f-8070-b378e8ce0a66" class=""><mark class="highlight-orange_background"><strong>mad</strong></mark><strong> </strong>⇒ Mentally deranged / crazy /  ⇒ What a <strong>mad</strong> thing to do!</p><p id="9f1bde0d-a9c6-4bb1-9917-48a072121903" class=""><mark class="highlight-orange_background"><strong>witty</strong></mark><strong> </strong>⇒ marked by or full of clever humor or wit ⇒ They were very intellectual and <strong>witty</strong>.</p><p id="a4a866d0-c833-4a1c-853c-74bc3ed5dad8" class=""><mark class="highlight-orange_background"><strong>quirky</strong></mark><strong> </strong>⇒ interesting / an idiosyncrasy / strange ⇒ I like his <strong>quirky</strong> sense of humour.</p><p id="5b501f3a-ad50-4c97-8b13-f9748e5a7615" class=""><mark class="highlight-orange_background"><strong>sane</strong></mark><strong> </strong>⇒ mentally healthy. ⇒ The only thing that kept me <strong>sane</strong> was music.</p><p id="570d37cd-3115-4364-93a9-045f10c7644e" class=""><mark class="highlight-orange_background"><strong>insane</strong></mark><strong> </strong>⇒ afflicted with mental derangement ⇒ An <strong>insane</strong> person is unaccountable for his actions.</p><p id="f5ca801e-6ca3-4a7d-a8b5-3d0f3cd9ce98" class=""><mark class="highlight-orange_background"><strong>arrangement</strong></mark><strong> </strong>⇒ the act of arranging or being arranged ⇒ We decided to make the <strong>arrangement</strong> permanent.</p><p id="4bdddd1a-117f-4886-8f3b-e1b909e89f63" class=""><mark class="highlight-orange_background"><strong>conformist</strong></mark><strong> </strong>⇒ someone who behaves or thinks like everyone else, rather than being different ⇒ Boys tend to be less <strong>conformist</strong> than girls.</p><p id="82b278ec-002a-45b7-8abb-11491cf5768f" class=""><mark class="highlight-orange_background"><strong>applause</strong></mark><strong> </strong>⇒ clap clap / Approval expressed especially by the clapping of hands. ⇒ The <strong>applause</strong> burst from the crowd.</p><p id="bf72e07c-292a-4dc9-9cc1-4389370d5e50" class=""><mark class="highlight-orange_background"><strong>rapturous</strong></mark><strong> </strong>⇒ showing extreme pleasure and happiness or excitement ⇒ He left the stage to <strong>rapturous</strong> applause.</p><p id="5b2309cf-5893-4c20-89fe-3f9a3bda2fbc" class=""><mark class="highlight-orange_background"><strong>struggle</strong></mark><strong> </strong>⇒ to proceed with difficulty or with great effort ⇒ A strong man will <strong>struggle</strong> with storms of fate.</p><p id="5865d355-1a4e-4a07-84d3-6b57a9258d53" class=""><mark class="highlight-orange_background"><strong>exert</strong></mark><strong> </strong>⇒ to put forth (strength, effort, etc.) ⇒ You&#x27;ll have to <strong>exert</strong> yourself more if you want to pass your exam.</p><p id="6e03940b-9443-4a2b-9c0c-467e951f5a01" class=""><mark class="highlight-orange_background"><strong>possession</strong></mark><strong> </strong>⇒ the act of having or taking into control ⇒ The city can take <strong>possession </strong>of the abandoned buildings.</p><p id="5b882b4c-5c18-4b6f-9a37-fe1173aa4f97" class=""><mark class="highlight-orange_background"><strong>sour</strong></mark><strong> </strong>⇒ taste or smell, like a lemon, and not sweet. ⇒ Love is sweet in the beginning, but <strong>sour</strong> in the end.</p><p id="196e5df2-4979-49b0-9c48-8b908c16429c" class=""><mark class="highlight-orange_background"><strong>chiefly</strong></mark><strong> </strong>⇒ most importantly ⇒ Icecream is <strong>chiefly</strong> made of milk and sugar.</p><p id="eba7c985-7596-42a9-a7a7-83d3e2750e04" class=""><mark class="highlight-orange_background"><strong>perspiration</strong></mark><strong> </strong>⇒ the action or process of perspiring ⇒ My shirt was soaked in <strong>perspiration</strong><em><strong>.</strong></em></p><p id="c09d8dfc-e1a3-463b-8344-47ee3e50e19f" class=""><mark class="highlight-orange_background"><strong>crayon</strong></mark><strong> </strong>⇒ a small stick of coloured wax used for drawing ⇒ She coloured the pictures with a yellow <strong>crayon.</strong></p><p id="986a48e4-2060-43a6-901f-7662a7f40059" class=""><mark class="highlight-orange_background"><strong>scrunch</strong></mark><strong> </strong>⇒ to draw or squeeze together tightly ⇒ The dry leaves <strong>scrunched</strong> under our feet.</p><p id="add1c816-9047-4155-9b68-749d897f3057" class=""><mark class="highlight-orange_background"><strong>freak</strong></mark><strong> </strong>⇒ to become or cause someone to become extremely emotional ⇒ I <strong>freak out</strong> every time I see a bug.</p><p id="f1338966-debd-46c2-a017-154d1d325ec3" class=""><mark class="highlight-orange_background"><strong>provoke</strong></mark><strong> </strong>⇒ to cause a reaction, especially a negative one ⇒ Dairy products may <strong>provoke</strong> allergic reactions in some people.</p><p id="14d2914e-4374-4825-beb4-79326130bd82" class=""><mark class="highlight-orange_background"><strong>rouse</strong></mark><strong> </strong>⇒ to cause to stop sleeping / to wake someone up or make someone more active or excited ⇒ You must <strong>rouse</strong> yourself to action. / I usually <strong>rouse</strong> at six in the morning.</p><p id="dc050352-f9c4-4c72-ba99-6d73f700b372" class=""><mark class="highlight-orange_background"><strong>apparently</strong></mark><strong> </strong>⇒ used to say that something seems to be true, although it is not certain ⇒ <strong>Apparently </strong> the company is losing a lot of money.</p><p id="fc260741-1fa6-4015-8647-6f1518ba7126" class=""><mark class="highlight-orange_background"><strong>somehow</strong></mark><strong> </strong>⇒ in a way that is not known or certain ⇒ Don&#x27;t worry, we&#x27;ll get the money back <strong>somehow</strong><em><strong>.</strong></em></p><p id="82cc8146-826c-4e6b-96c5-53abd76a5be2" class=""><mark class="highlight-orange_background"><strong>sweep</strong></mark><strong> </strong>⇒ to clean something, especially a floor by using a brush to collect the dirt into one place from which it can be removed / to move, especially quickly and powerfully ⇒ Don&#x27;t forget to <strong>sweep</strong> under the beds.</p><p id="3e306184-db1b-4c6d-a5f4-cef6b26acbc8" class=""><mark class="highlight-orange_background"><strong>privileged</strong></mark><strong> </strong>⇒ having a privilege ⇒ I consider myself highly <strong>privileged</strong> to have this opportunity.</p><p id="539c39d4-aa7e-40d9-9d1b-c1126eb7b7c3" class=""><mark class="highlight-orange_background"><strong>consist</strong></mark><strong> </strong>⇒ to be something / to be in agreement on every point ⇒ The team <strong>consists</strong>
+ of four Europeans and two Americans.</p><p id="d0daa381-cc44-44db-ac31-df98e58d5679" class=""><mark class="highlight-orange_background"><strong>charity</strong></mark> ⇒ an organization whose purpose is to give money, food, or help to those who need it ⇒</p><p id="1a2de601-4613-4b71-aa58-dc3442c2ce47" class=""><mark class="highlight-orange_background"><strong>charm</strong></mark> ⇒ an object or saying that is thought to have magical powers, such as the ability to bring good luck ⇒</p><p id="5c4ceccd-0cfa-4262-b17b-8d8dfc68f338" class=""><mark class="highlight-orange_background"><strong>convincing</strong></mark> ⇒ able to make you believe that something is true or right ⇒</p><p id="a749d281-ae86-408f-9d42-eab236f737c5" class=""><mark class="highlight-orange_background"><strong>fraction</strong></mark> ⇒ a number that results from dividing one whole number by another (¼ and 0.25) ⇒</p><p id="f527f772-af85-4718-a52a-986a44044455" class=""><mark class="highlight-orange_background"><strong>therefore</strong></mark> ⇒ for that reason ⇒</p><p id="5a6510e5-1ca4-459a-bd65-35e4ef731763" class=""><mark class="highlight-orange_background"><strong>exploitation</strong></mark> ⇒ the use of something in order to get an advantage from it ⇒</p><p id="468a83ad-f526-4c46-b4f5-6ab834b13931" class=""><mark class="highlight-orange_background"><strong>jeopardy</strong></mark> ⇒ in danger of being damaged or destroyed ⇒</p><p id="9f82f570-d8e0-4427-a883-0a7555bc3056" class=""><mark class="highlight-orange_background"><strong>efficacy</strong></mark> ⇒ the ability, especially of a medicine or a method of achieving something, to produce the intended result / affect ⇒</p><p id="247714b8-f533-4cb1-b50e-c1242d7cf361" class=""><mark class="highlight-orange_background"><strong>competence</strong></mark> ⇒ the ability to do something well ⇒</p><p id="c9985d72-0bf0-4daf-b159-47d454c1966a" class=""><mark class="highlight-orange_background"><strong>remnant</strong></mark> ⇒ a small piece or amount of something that is left from a larger original piece or amount ⇒</p><p id="bf5f8787-637f-4bbd-8e52-8773063f090b" class=""><mark class="highlight-orange_background"><strong>counterpart</strong></mark> ⇒ One of two parts that fit and complete each other. ⇒</p><p id="22f08c36-c197-408a-8224-45a98dec89c4" class=""><mark class="highlight-orange_background"><strong>prospects</strong></mark> ⇒ Something expected; a possibility ⇒</p><p id="73fd029f-64a2-4118-9d1b-b16dc4e95dee" class=""><mark class="highlight-orange_background"><strong>perhaps</strong></mark> ⇒ Maybe; possibly. ⇒</p><p id="e55d16d4-6a53-4b58-8919-8a9574a7bd58" class=""><mark class="highlight-orange_background"><strong>utilisation</strong></mark> ⇒ to find a useful purpose for (something). ⇒</p><p id="1477c8ad-f537-48e7-9398-cd003f645707" class=""><mark class="highlight-orange_background"><strong>inclination</strong></mark> ⇒ a habitual attraction to some activity or thing /tendency / trend ⇒</p><p id="57e5b623-eb47-475e-9087-964ab3c8d3cd" class=""><mark class="highlight-orange_background"><strong>inquiries</strong></mark> ⇒ a systematic search for the truth or facts about something / investigation ⇒</p><p id="0044d860-6865-473e-8fe7-ba85e02be80a" class=""><mark class="highlight-orange_background"><strong>implications</strong></mark> ⇒ the effect that an action or decision will have on something else in the future ⇒</p><p id="be9428ae-2a61-4da4-91f3-696f8ce084f5" class=""><mark class="highlight-orange_background"><strong>evaluation</strong></mark> ⇒ the process of judging or calculating the quality, importance, amount, or value of something ⇒</p><p id="7f97f182-51ae-4258-9ed3-5d01f03aff49" class=""><mark class="highlight-orange_background"><strong>opposition</strong></mark> ⇒ strong disagreement / A political party or an organized group opposed to the group (chp) ⇒</p><p id="a249ecac-6be5-4ca5-81e6-40a5c6ce2237" class=""><mark class="highlight-orange_background"><strong>revolution</strong></mark> ⇒ a change in the way a country is governed, usually to a different political system and often using violence or war ⇒</p><p id="a3871397-25ac-410c-b285-1bd21b09c0e7" class=""><mark class="highlight-orange_background"><strong>predisposition</strong></mark> ⇒ a habitual attraction to some activity or thing / trend / tendency ⇒</p><p id="4ca61978-e032-47cb-80c3-12adfae008bb" class=""><mark class="highlight-orange_background"><strong>contradiction</strong></mark> ⇒ the fact of something being the complete opposite of something else or very different from something else, so that one of them must be wrong ⇒</p><p id="1fbed9e4-ac3f-460e-a4cf-d61901e159a5" class=""><mark class="highlight-orange_background"><strong>sanction</strong></mark> ⇒ an official order, such as the stopping of trade, that is taken against a country in order to make it obey international law ⇒</p><p id="b193ec29-ebab-490e-9958-0a7a591be070" class=""><mark class="highlight-orange_background"><strong>proportion</strong></mark> ⇒ the number or amount of a group or part of something when compared to the whole ⇒</p><p id="cd5325dd-5e93-46f0-8b70-0d9ba46351c7" class=""><mark class="highlight-orange_background"><strong>allocation</strong></mark> ⇒ the process of giving someone their part of a total amount of something to use in a particular way / sharing ⇒</p><p id="b1b213de-2442-4b19-b725-0f0a541eb8a1" class=""><mark class="highlight-orange_background"><strong>demonstration</strong></mark> ⇒ the act of showing someone how to do something, or how something works / demo ⇒</p><p id="6d1a0e39-8e8c-4cf0-a75f-f6e360923405" class=""><mark class="highlight-orange_background"><strong>dedication</strong></mark> ⇒ The act of dedicating or the state of being dedicated. ⇒</p><p id="53ddd7d3-3eff-4536-94c0-fe8891c481d4" class=""><mark class="highlight-orange_background"><strong>association</strong></mark> ⇒ The act of associating or being connected with / relation ⇒</p><p id="4f24a615-9d72-4a04-93bb-9c5dfedf64cf" class=""><mark class="highlight-orange_background"><strong>deprivation</strong></mark> ⇒ a situation in which you do not have things or conditions that are usually considered necessary for a pleasant life  ⇒</p><p id="67434169-a7dc-4e07-b6dd-d9036bac892f" class=""><mark class="highlight-orange_background"><strong>nutrition</strong></mark> ⇒ the substances that you take into your body as food and the way that they influence your health ⇒</p><p id="3c9c7589-be60-4c60-925e-7db173cde11a" class=""><mark class="highlight-orange_background"><strong>particularly</strong></mark> ⇒ in the specific case of one person or thing as distinguished from others / special selected ⇒</p><p id="ffc7c864-9e8a-4555-9b26-8fc731ba0bc4" class=""><mark class="highlight-orange_background"><strong>acquisition</strong></mark> ⇒ the process of getting something / gain ⇒</p><p id="620d01d1-2e01-466a-b1f2-3dc0949e20fd" class=""><mark class="highlight-orange_background"><strong>tendency</strong></mark> ⇒ trend / predisposition A characteristic likelihood ⇒</p><p id="41efa2dc-8b17-4de0-9eb3-9885b0ca1aa8" class=""><mark class="highlight-orange_background"><strong>likelihood</strong></mark> ⇒ Something probable / the chance that something will happen / probability ⇒</p><p id="055ec4c8-bc79-48b8-ba13-a91356599d72" class=""><mark class="highlight-orange_background"><strong>discrimination</strong></mark> ⇒ the state of being kept distinct ⇒</p><p id="a6c29850-869e-4f1c-8ec4-689de0eb45a3" class=""><mark class="highlight-orange_background"><strong>accuse</strong></mark> ⇒ to charge with a fault or offense / blame ⇒</p><p id="53e0a9c7-6d92-48ec-a483-5cd516ff92d9" class=""><mark class="highlight-orange_background"><strong>starvation</strong></mark> ⇒ lack of food / hungery ⇒</p><p id="d104daea-2da0-41e7-9f8a-c963fd023070" class=""><strong><mark class="highlight-orange_background">decade</mark></strong> ⇒ a group or set of 10 ⇒</p><p id="12cf1621-0981-403e-b20a-3d037fdc98aa" class=""><mark class="highlight-orange_background"><strong>ruin</strong></mark> ⇒ The state of being physically destroyed or damaged ⇒</p><p id="07381b46-8e6a-4e20-a732-b09661e0dd6f" class=""><mark class="highlight-orange_background"><strong>advocate</strong></mark> ⇒ one who defends or maintains a cause or proposal ⇒ </p><p id="7c9e2d5b-ee1a-4eb2-85bb-74a541d30ab4" class=""><mark class="highlight-orange_background"><strong>persuade</strong></mark> ⇒ convincing ⇒</p><p id="34152b16-d48f-44a3-8e8a-084b3453656d" class=""><mark class="highlight-orange_background">decide</mark> ⇒ to make a final choice or judgment about / decision ⇒</p><p id="b2498604-f92d-49d7-a03c-689d8422bcbf" class=""><strong><mark class="highlight-orange_background">enormously</mark></strong> ⇒ extremely or very much ⇒</p><p id="6e86f8d3-8fd6-447b-92bd-95c23d64fcec" class=""><strong><mark class="highlight-orange_background">consumption</mark></strong> ⇒ the amount used or eaten ⇒</p><p id="25abb3aa-56d9-46f6-ad7b-121b3c4b8ce9" class=""><mark class="highlight-orange_background"><strong>redundant</strong></mark> ⇒ unnecessary ⇒</p><p id="55d42e95-d09a-4f78-81e8-95c3e39b8aca" class=""><mark class="highlight-orange_background"><strong>establish</strong></mark> ⇒ to start a company or organization that will continue for a long time ⇒</p><p id="8aaf7f5e-447a-4ff9-9373-703a3a6a7354" class=""><strong><mark class="highlight-orange_background">indeed</mark></strong><strong> </strong>⇒ Without a doubt; certainly / In fact; in reality ⇒</p><p id="8eac586f-2206-491c-acab-9bd86d955cce" class=""><strong><mark class="highlight-orange_background">substance</mark></strong><strong> </strong>⇒ material with particular physical characteristics: ⇒</p><p id="79c74ebb-11e6-4bad-b5df-5fa17b1cbe91" class=""><strong><mark class="highlight-orange_background">acquires</mark></strong><strong> </strong>⇒ gain / to get or buy something ⇒</p><p id="73332d34-a5eb-4721-a524-a3029869d88c" class=""><strong><mark class="highlight-orange_background">crucial</mark></strong><strong> </strong>⇒ extremely important or necessary ⇒</p><p id="6e98f4bb-a5be-473d-bc9b-f3689cb1cbaa" class=""><strong><mark class="highlight-orange_background">amount</mark></strong><strong> </strong>⇒ value ⇒</p><p id="467080b5-60f7-4e48-8fda-8b938148b708" class=""><strong><mark class="highlight-orange_background">proposal </mark></strong>⇒ offer ⇒ </p><p id="2a5425ae-83e8-4ab9-afdd-af7886047b42" class=""><strong><mark class="highlight-orange_background">glad</mark></strong><strong> </strong>⇒ pleased and happy ⇒</p><p id="e09abb0e-1624-4ab3-a991-bb946af4bd3b" class=""><strong><mark class="highlight-orange_background">faith</mark></strong><strong> </strong>⇒ great trust or confidence in something or someone: ⇒</p><p id="3b9bf46a-6c34-464a-bbfc-5999e8d4a499" class=""><strong><mark class="highlight-orange_background">possession</mark></strong><strong> </strong>⇒ the act of having or taking into control ⇒</p><p id="2a053f82-1820-488e-85d7-92ddb821a0d7" class=""><strong><mark class="highlight-orange_background">promote</mark></strong><strong> </strong>⇒ to encourage people to like, buy, use, do, or support something ⇒</p><p id="42aff80b-d4b1-4e6e-be8c-fd97e67cca8d" class=""><strong><mark class="highlight-orange_background">guilty</mark></strong><strong> </strong>⇒ Deserving blame ⇒</p><p id="b77b3f69-8994-4dd8-94a4-77fa5dcec70a" class=""><strong><mark class="highlight-orange_background">precise</mark></strong><strong> </strong>⇒ Clearly expressed or delineated; definite / curtain ⇒</p><p id="abb42c76-0c6e-4617-a00b-240657949008" class=""><strong><mark class="highlight-orange_background">accurate</mark></strong><strong> </strong>⇒ Conforming exactly to fact; errorless. / precise ⇒</p><p id="87c22244-fccb-4e4b-ace6-d39a5712b338" class=""><strong><mark class="highlight-orange_background">lenient</mark></strong><strong> </strong>⇒ Not harsh or strict; merciful or generous ⇒</p><p id="177d95d9-4a85-41bc-ae4c-3508a6647227" class=""><strong><mark class="highlight-orange_background">substantial</mark></strong><strong> </strong>⇒ large in size, value, or importance ⇒</p><p id="259a3b70-0315-42e6-97f9-6125d01d6602" class=""><strong><mark class="highlight-orange_background">devote</mark></strong><strong> </strong>⇒ dedicate ⇒</p><p id="d0cdfb79-8d7c-487f-bcfb-094278afc9db" class=""><strong><mark class="highlight-orange_background">coincidence</mark></strong><strong> </strong>⇒ incidence / the occurrence of events that happen at the same time by accident but seem to have some connection ⇒</p><p id="90f63d75-290f-4629-ad41-19145ddf6cac" class=""><strong><mark class="highlight-orange_background">trait</mark></strong><strong> </strong>⇒ a distinguishing quality (as of personal character) / characteristic  ⇒</p><p id="3ba68b5e-c28f-4f24-aff7-eccda5850116" class=""><strong><mark class="highlight-orange_background">reliable</mark></strong><strong> </strong>⇒ can be trusted ⇒ </p><p id="031bd0ee-02f2-4ad8-81c8-953dcc4aa3f3" class=""><strong><mark class="highlight-orange_background">inhabit</mark></strong><strong> </strong>⇒ to live in a place ⇒</p><p id="b5724fd0-ff7e-447b-89c5-ab8b5eee8164" class=""><strong><mark class="highlight-orange_background">sincerely</mark></strong><strong> </strong>⇒ honestly and without pretending or lying / intimacy ⇒</p><p id="ad2db599-9d9e-46ee-9117-9fa16e31704e" class=""><strong><mark class="highlight-orange_background">assumption</mark></strong><strong> </strong>⇒ something that you accept as true without question or proof ⇒</p><p id="545e320e-02f7-4e71-9d6d-8859d5a2973a" class=""><strong><mark class="highlight-orange_background">absence</mark></strong><strong> </strong>⇒ lack / without ⇒</p><p id="fe9607de-306f-45a5-91f2-416ea3bc6fda" class=""><strong><mark class="highlight-orange_background">admire</mark></strong><strong> </strong>⇒ compliment / to respect and approve of someone or their behaviour: ⇒</p><p id="ccc19975-05f0-40e1-a1c7-0090d91b2875" class=""><strong><mark class="highlight-orange_background">susceptible</mark></strong><strong> </strong>⇒ Easily influenced or affected ⇒</p><p id="020a6e53-1c5a-475f-a8b3-e8381092181a" class=""><strong><mark class="highlight-orange_background">abundance</mark></strong><strong> </strong>⇒ an ample quantity / the situation in which there is more than enough of something ⇒</p><p id="b3e0a678-2e07-433a-bca8-b12b7ea3c361" class=""><strong><mark class="highlight-orange_background">notorious</mark></strong><strong> </strong>⇒ famous for something bad ⇒</p><p id="889f9c36-ef4a-48cc-8a55-90fc5877216a" class=""><strong><mark class="highlight-orange_background">entertain</mark></strong><strong> </strong>⇒ to keep a group of people interested or enjoying themselves / joy ⇒</p><p id="e5b91aa6-40a0-42f6-b6ea-4ed96142dfff" class=""><strong><mark class="highlight-orange_background">reveal</mark></strong><strong> </strong>⇒ to make known or show something that is surprising or that was previously secret ⇒</p><p id="e10f286a-8429-46bf-925b-aab1bc151929" class=""><strong><mark class="highlight-orange_background">immensely</mark></strong><strong> </strong>⇒ extremely ⇒</p><p id="cb549bef-ef6f-4f9e-a7f6-da4bffd222b9" class=""><strong><mark class="highlight-orange_background">concern</mark></strong><strong> </strong>⇒ to cause worry to someone or something ⇒</p><p id="cac4da00-9388-4a6c-b149-9d6997ccb1ea" class=""><strong><mark class="highlight-orange_background">prevalence</mark></strong><strong> </strong>⇒ the fact that something is very common or happens often ⇒</p><p id="e4c1ed08-4ebf-48bc-8f0a-624e83e0614c" class=""><strong><mark class="highlight-orange_background">incident </mark></strong>⇒ event / an event that is either unpleasant or unusual / accident ⇒</p><p id="3aee7f53-75a5-40a7-9213-c2f3086168f2" class=""><strong><mark class="highlight-orange_background">consistency</mark></strong><strong> </strong>⇒ agreement or harmony of parts or features to one another or a whole ⇒</p><p id="dc21d731-3b50-4f52-9caa-3f1f3ad6363e" class=""><strong><mark class="highlight-orange_background">dispansable</mark></strong><strong> </strong>⇒ capable of being dispensed with ⇒</p><p id="ca52aae7-3f10-41bb-b01c-3e52a09ba0d1" class=""><strong><mark class="highlight-orange_background">contentious</mark></strong><strong> </strong>⇒ likely to cause disagreement or argument ⇒</p><p id="4b9f2db0-c6d0-45d5-8922-c6f653b1f530" class=""><strong><mark class="highlight-orange_background">noteworthy</mark></strong><strong> </strong>⇒ worthy of or attracting attention especially because of some special excellence ⇒</p><p id="a0942a38-e7a1-40ba-b80e-be3dd36c0e59" class=""><strong><mark class="highlight-orange_background">subtle</mark></strong><strong> </strong>⇒ So slight as to be difficult to detect or describe / small but important / elusive ⇒</p><p id="23dbbd8e-3cff-4a54-8e47-f4c2fe29d474" class=""><strong><mark class="highlight-orange_background">misc / miscellanious</mark></strong> ⇒ Having a variety / diversity ⇒</p><p id="9c642fbf-9d80-4ad2-a43a-e2379b4bafeb" class=""><strong><mark class="highlight-orange_background">intact</mark></strong><strong> </strong>⇒ not damaged or destroyed ⇒</p><p id="ff03fc3d-3693-4c2b-91a8-4fbd8a38a872" class=""><strong><mark class="highlight-orange_background">overwhelming</mark></strong><strong> </strong>⇒ difficult to fight against ⇒</p><p id="7ae090a2-51a3-4e28-a447-68d104da39cb" class=""><strong><mark class="highlight-orange_background">innate</mark></strong><strong> </strong>⇒ An innate quality or ability is one that you were born with, not one you have learned ⇒</p><p id="a65b5ca8-f5ed-42d0-b216-a4134072aee1" class=""><strong><mark class="highlight-orange_background">elusive</mark></strong><strong> </strong>⇒ hard to express or define ⇒</p><p id="e85c467a-faa4-43de-b63d-471f70ac9fbe" class=""><strong><mark class="highlight-orange_background">ample</mark></strong><strong> </strong>⇒ more than enough ⇒</p><p id="4d451cff-3e5e-4812-ba2b-7ef95c5a527f" class=""><strong><mark class="highlight-orange_background">promising </mark></strong>⇒ Something that is promising shows signs that it is going to be successful or enjoyable / hopefull ⇒</p><p id="6bb759ed-c0d8-4ede-8fdc-cb9628f8cf0b" class=""><strong><mark class="highlight-orange_background">tangible</mark></strong><strong> </strong>⇒ concrete/ real and not imaginary; able to be shown, touched, or experienced ⇒</p><p id="1dba60b2-6e08-4969-8d81-e0a0bdea7a8d" class=""><strong><mark class="highlight-orange_background">surmountable</mark></strong><strong> </strong>⇒ possible to deal with or solve successfully ⇒</p><p id="de442bd9-70dc-4dd6-8d88-c9590facee6f" class=""><strong><mark class="highlight-orange_background">incomprehensible</mark></strong><strong> </strong>⇒ impossible or extremely difficult to understand ⇒W</p><p id="51b5c2c6-d555-476e-bf62-df01861fcd06" class=""><mark class="highlight-orange_background"><strong>auction</strong></mark><strong> </strong>⇒ a sale of property to the highest bidder ⇒</p><p id="119bee98-fa4a-4c97-b341-69f40402423b" class=""><mark class="highlight-orange_background"><strong>properly</strong></mark><strong> </strong>⇒ in an acceptable or suitable way ⇒</p><p id="c3a64e49-b0a3-4443-8b71-607a5aed0923" class=""><mark class="highlight-orange_background"><strong>miserable</strong></mark><strong> </strong>⇒ very unhappy ⇒</p><p id="aceb5881-9f3b-4410-b777-aa32ddef3f72" class=""><mark class="highlight-orange_background"><strong>insure</strong></mark><strong> </strong>⇒ insurance ⇒</p><p id="41827d36-3402-4eeb-9c88-decd7589a72b" class=""><mark class="highlight-orange_background"><strong>concise</strong></mark><strong> </strong>⇒ short and clear, expressing what needs to be said without unnecessary words ⇒</p><p id="b2bd749e-7a38-40f2-9c6a-05ee502c64a4" class=""><mark class="highlight-orange_background"><strong>implicit</strong></mark><strong> </strong>⇒ capable of being understood from something else though unexpressed ⇒</p><p id="5f63fae3-fc97-4e83-86a7-187038090908" class=""><mark class="highlight-orange_background"><strong>endure</strong></mark><strong> </strong>⇒ to continue in the same state ⇒</p><p id="163e419f-c543-4ba7-bbec-cacabca6cf81" class=""><mark class="highlight-orange_background"><strong>precaution</strong></mark><strong> </strong>⇒ an action that is done to prevent something unpleasant or dangerous happening ⇒</p><p id="07b52397-07d5-40cf-bab1-4f6995aaa54e" class=""><mark class="highlight-orange_background"><strong>prevalent</strong></mark><strong> </strong>⇒ existing very commonly or happening often ⇒</p><p id="a86a7039-7b20-4a33-997d-62be95975215" class=""><mark class="highlight-orange_background"><strong>remarkable</strong></mark><strong> </strong>⇒ Attracting or worthy of notice, especially for being unusual or extraordinary ⇒</p><p id="f6467edb-6413-41a4-a41f-07b83c301813" class=""><mark class="highlight-orange_background"><strong>plenty</strong></mark><strong> </strong>⇒ ample / enough or more than enough, or a large amount / ⇒</p><p id="e3b92e2a-647b-4467-b944-159ec1a5708b" class=""><mark class="highlight-orange_background"><strong>scarce</strong></mark><strong> </strong>⇒ not easy to find or get / not plent or ample ⇒</p><p id="58486703-985b-4cb0-a39f-c51bb50690fa" class=""><mark class="highlight-orange_background"><strong>thoroughly</strong></mark><strong> </strong>⇒ completely, very much ⇒</p><p id="5ae80a2f-f960-4dc2-a65d-ddc825f01338" class=""><mark class="highlight-orange_background"><strong>precious</strong></mark><strong> </strong>⇒ of great value because of being rare, expensive, or important / valuable / worthy ⇒</p><p id="c7a6383a-0e53-419b-8319-8601901c5902" class=""><mark class="highlight-orange_background"><strong>obvious</strong></mark><strong> </strong>⇒ easy to see, recognize, or understand ⇒</p><p id="1a777560-cdb5-49ef-a5f9-899d45304061" class=""><mark class="highlight-orange_background"><strong>endorse</strong></mark><strong> </strong>⇒ approving ⇒</p><p id="b8cc99bd-c63b-4468-b99e-752e5216acf2" class=""><mark class="highlight-orange_background"><strong>inadvertently</strong></mark><strong> </strong>⇒ accidenteal / by mistake / not intentional ⇒</p><p id="36c90fd9-f217-4826-b0db-3d106b511ea5" class=""><mark class="highlight-orange_background"><strong>vital</strong></mark><strong> </strong>⇒ extremely important necessary for the success or continued existence of something; ⇒</p><p id="3851d7af-c4ae-458d-9c35-c76184e06d1b" class=""><mark class="highlight-orange_background"><strong>venture</strong></mark><strong> </strong>⇒ a new activity, usually in business, that involves risk or uncertainty ⇒</p><p id="bdeb509a-91fa-4fab-aec9-9bd736ca8ad3" class=""><mark class="highlight-orange_background"><strong>neglect</strong></mark><strong> </strong>⇒ omission / to not give enough care or attention to people or things that are your responsibility ⇒</p><p id="1e5e8642-93af-43dc-ada7-3947e8373512" class=""><mark class="highlight-orange_background"><strong>obtain </strong></mark>⇒ to gain or attain usually by planned action or effort ⇒</p><p id="41aec5b5-e378-440a-9ceb-61dea1494308" class=""><mark class="highlight-orange_background"><strong>coerce</strong></mark><strong> </strong>⇒ to achieve by force or threat ⇒</p><p id="f11ba632-92de-418f-93ff-bca3b5e9394b" class=""><mark class="highlight-orange_background"><strong>tentative</strong></mark><strong> </strong>⇒ temporary, experimental ⇒</p><p id="d0d3cc56-0bfc-411a-87d5-cc48762b7de6" class=""><mark class="highlight-orange_background"><strong>deception</strong></mark><strong> </strong>⇒ the act of causing someone to accept as true or valid what is false or invalid ⇒</p><p id="b9f3fff0-0c6b-416a-bbc9-868b782eb4be" class=""><mark class="highlight-orange_background"><strong>thwart </strong></mark>⇒ to stop something from happening or someone from doing something / to obstruct ⇒</p><p id="f7d52e73-4f61-4832-a853-0e513c01a774" class=""><mark class="highlight-orange_background"><strong>endurance</strong></mark><strong> </strong>⇒ durable / substantial ⇒</p><p id="1a289e33-5c6d-4764-a26b-8a467904fad4" class=""><mark class="highlight-orange_background"><strong>discern</strong></mark><strong> </strong>⇒ to see, recognize, or understand something that is not clear ⇒</p><p id="65cb8aa9-28d6-4977-8a56-a798b92126f8" class=""><mark class="highlight-orange_background"><strong>fallacy</strong></mark><strong> </strong>⇒ an idea that a lot of people think is true but is in fact false ⇒</p><p id="9d392e00-7acd-4844-8d2e-e011dd926917" class=""><mark class="highlight-orange_background"><strong>delineate</strong></mark><strong> </strong>⇒ to describe, portray, or set forth with accuracy or in detail ⇒</p><p id="5d71038e-834d-43d8-bd1e-e05a3e5ae309" class=""><mark class="highlight-orange_background"><strong>incentive</strong></mark><strong> </strong>⇒ promote ⇒</p><p id="441c99d1-7af2-41eb-a34f-2b708c9eaf4c" class=""><mark class="highlight-orange_background"><strong>attain</strong></mark><strong> </strong>⇒ reach to end ⇒</p><p id="6fec35dd-c4a1-48e6-966a-02ed1cfb24ef" class=""><mark class="highlight-orange_background"><strong>omission</strong></mark><strong> </strong>⇒ something neglected or left undone ⇒</p><p id="87cc264b-9806-45fc-98b6-1458d2876833" class=""><mark class="highlight-orange_background"><strong>estate</strong></mark><strong> </strong>⇒ social standing or rank especially of a high order / a person&#x27;s property in land and tenements ⇒</p><p id="674b59f8-3a53-4fc5-ab15-708b6f844eea" class=""><mark class="highlight-orange_background"><strong>buzzword</strong></mark><strong> </strong>⇒ An stylish or trendy word or phrase, especially when occurring in a specialized field. ⇒</p><p id="81277a3b-e8e3-4570-8fab-ad470d0666fd" class=""><mark class="highlight-orange_background"><strong>negociate</strong></mark><strong> </strong>⇒ to have formal discussions with someone in order to reach an agreement with them / bargain ⇒</p><p id="cbe27d8a-e4f1-458c-b879-f33aef9c8801" class=""><mark class="highlight-orange_background"><strong>deliberately</strong></mark><strong> </strong>⇒ intentionally / with full awareness of what one is doing ⇒ </p><p id="4d910af5-cc73-4655-b329-027652ddfe8f" class=""><mark class="highlight-orange_background"><strong>aware</strong></mark><strong> </strong>⇒ Having knowledge or discernment of something ⇒</p><p id="e6a57faf-52dd-4001-995a-338cac3f8fe0" class=""><mark class="highlight-orange_background"><strong>reckon</strong></mark><strong> </strong>⇒ considering, compute ⇒</p><p id="34485de6-16f4-4c2d-bce6-e17481b6afe5" class="">
+</p><p id="32a61d17-53d2-497a-bb4e-34b5fd854104" class="">
+</p><p id="5632a9c3-5871-46ef-b8a0-a60561b8a0f6" class="">
+</p><p id="8418329e-40a1-466e-8791-8446a16cb187" class="">
+</p><p id="83a47ee6-c44f-4cff-be88-d3a38cfb3d09" class="">
+</p><p id="744b7c01-3555-4440-b7bb-a66c8a5023db" class="">
+</p><p id="17d0e714-7a6a-436f-b6e4-bf6992abacc0" class="">
+</p><p id="e8b33bd4-2b9b-4292-ae7c-0c35aec70a53" class="">
+</p><p id="9727dd02-c48e-44e4-be12-e7dca78a7716" class="">
+</p><p id="40773e17-f00c-4f56-a3f0-334592b63af5" class="">
+</p><p id="f2fcbff8-38f1-4bbb-8fbc-0297a1288a86" class="">
+</p><p id="b3c0b411-0de8-488b-a85f-d6033722dad2" class="">
+</p><p id="18ea417a-ee03-418f-838d-fe25462cb5cf" class="">
+</p><p id="f54e7834-1762-49eb-a64d-2adf23e1e436" class="">
+</p><p id="f27c28cb-a2ce-47d4-b41a-d536e97fc3dd" class="">
+</p><p id="ca4bf2bd-d27a-466a-acc9-968857bdfb22" class="">
+</p><p id="3cc4e826-c15e-4b18-be86-210f082a1bda" class="">
+</p><p id="b6a62849-a9b2-4491-b057-674a6f25c585" class="">
+</p><p id="dd2c7470-a1d3-49e6-883f-ed3dca809d26" class="">
+</p><p id="290c1028-b653-41fa-becd-3321dc42921a" class=""><mark class="highlight-orange_background"><strong>dodging a bullet</strong></mark> ⇒ ⇒</p><p id="2404b313-c1e0-4e02-b200-f5c1d93f2202" class="">
+</p><p id="668ecc55-2fc3-46fa-be4f-a9f4e4fb26cc" class="">
+</p><p id="194c4f9a-c982-4bed-a233-be0af096ec5f" class="">
+</p><ul id="fbbb6715-96f9-43ad-abdd-cf484ed66f44" class="toggle"><li><details open=""><summary><mark class="highlight-orange_background">Contradictory</mark></summary><p id="7dc31477-ecca-4882-9e83-f3ce7117e69e" class="">*<mark class="highlight-yellow_background">kantırdiktoriy - çelişkili</mark></p></details></li></ul><ul id="ce6231cf-0611-4815-8761-d10956a73a91" class="toggle"><li><details open=""><summary><mark class="highlight-orange_background">Enroll</mark></summary><p id="1042d090-db86-41d1-b3aa-3c392788773e" class="">*<mark class="highlight-yellow_background">in-roğl - kayıt olmak </mark></p></details></li></ul><ul id="f1f6adce-8453-4b09-8c8c-0b5379377466" class="toggle"><li><details open=""><summary><mark class="highlight-orange_background">Glad</mark></summary><p id="84a4ee83-d5eb-4504-9683-baa7a9f31e37" class=""><mark class="highlight-yellow_background"> *gled - memnun</mark></p></details></li></ul><ul id="ff8de88e-6c74-4ba9-9211-ed0d7fdd500a" class="toggle"><li><details open=""><summary><mark class="highlight-orange_background">Regretted</mark></summary><p id="78fa93b7-7fe6-4e8a-94c3-053d2251984e" class="">*<mark class="highlight-yellow_background">rigrağdid - pişman</mark></p></details></li></ul><p id="a4b89fd8-bbe7-4856-9ff2-4d9bdba31821" class="">nerd, intimacy, lack, consistency, frientimacy dilapidated, ditch, involve, claim, properly, obviously, diligent,  humor, surreptitious, frugal, forgo, miniscule, substantial, reckon, actualize, allege, disguised, compelled, bestow, depleted, infringe, proceed, enriched, strained, defrauded, implored, articulated, belligerence, indifference, repulsion, reluctance, aware, persuasiveness, imprecise, fact, concise, indigent, wealth, guile, vindictive, thoughtful, rendition, dilemma, quandary, humility, descend, perk, detrimental, refute, ruin, obscure, conceal, hazard, nutshell, seemingly, propose, suppose, dispute, auction, punishment, incite, sacrifice, bullying, bond, drawback, tie, dispute, confidential, traitor, dedicated, insure, estimeate, duration,miserable, contiguous,</p><p id="dd85d181-2e1d-4676-ab99-5896284abcce" class="">
+</p></div></article></body></html>
