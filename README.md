@@ -128,7 +128,7 @@
 
 **blackmail** ⇒ extortion or coercion by threats especially of public exposure or criminal prosecution ⇒ Barney, you can't **blackmail** us into lying to Nora
 
-****intimacy** ⇒ The condition of being intimate. ⇒ I sensed a close **intimacy** between them.
+****intimacy** ⇒ The condition of being intimate. / sincere ⇒ I sensed a close **intimacy** between them.
 
 **demanding** ⇒ we usually say that to say something requires a lot of attention or effort. ⇒ She has a very **demanding** schedule.
 
@@ -242,7 +242,6 @@
 
 **finite** ⇒ having a limit or end ⇒ The physical universe is **finite** in space and time.
 
-
 **forgive** ⇒ To give up resentment against or stop wanting to punish ⇒ To **forgive** our enemies is a charming way of revenge.
 
 **punishment** ⇒ The imposition of a penalty or deprivation for wrongdoing ⇒ **Punishment** is justice for the unjust.
@@ -301,3 +300,267 @@
 
 **consist** ⇒ to be something / to be in agreement on every point ⇒ The team **consists**
  of four Europeans and two Americans.
+
+**charity** ⇒ an organization whose purpose is to give money, food, or help to those who need it ⇒
+
+**charm** ⇒ an object or saying that is thought to have magical powers, such as the ability to bring good luck ⇒
+
+**convincing** ⇒ able to make you believe that something is true or right ⇒
+
+**fraction** ⇒ a number that results from dividing one whole number by another (¼ and 0.25) ⇒
+
+**therefore** ⇒ for that reason ⇒
+
+**exploitation** ⇒ the use of something in order to get an advantage from it ⇒
+
+**jeopardy** ⇒ in danger of being damaged or destroyed ⇒
+
+**efficacy** ⇒ the ability, especially of a medicine or a method of achieving something, to produce the intended result / affect ⇒
+
+**competence** ⇒ the ability to do something well ⇒
+
+**remnant** ⇒ a small piece or amount of something that is left from a larger original piece or amount ⇒
+
+**counterpart** ⇒ One of two parts that fit and complete each other. ⇒
+
+**prospects** ⇒ Something expected; a possibility ⇒
+
+**perhaps** ⇒ Maybe; possibly. ⇒
+
+**utilisation** ⇒ to find a useful purpose for (something). ⇒
+
+**inclination** ⇒ a habitual attraction to some activity or thing /tendency / trend ⇒
+
+**inquiries** ⇒ a systematic search for the truth or facts about something / investigation ⇒
+
+**implications** ⇒ the effect that an action or decision will have on something else in the future ⇒
+
+**evaluation** ⇒ the process of judging or calculating the quality, importance, amount, or value of something ⇒
+
+**opposition** ⇒ strong disagreement / A political party or an organized group opposed to the group (chp) ⇒
+
+**revolution** ⇒ a change in the way a country is governed, usually to a different political system and often using violence or war ⇒
+
+**predisposition** ⇒ a habitual attraction to some activity or thing / trend / tendency ⇒
+
+**contradiction** ⇒ the fact of something being the complete opposite of something else or very different from something else, so that one of them must be wrong ⇒
+
+**sanction** ⇒ an official order, such as the stopping of trade, that is taken against a country in order to make it obey international law ⇒
+
+**proportion** ⇒ the number or amount of a group or part of something when compared to the whole ⇒
+
+**allocation** ⇒ the process of giving someone their part of a total amount of something to use in a particular way / sharing ⇒
+
+**demonstration** ⇒ the act of showing someone how to do something, or how something works / demo ⇒
+
+**dedication** ⇒ The act of dedicating or the state of being dedicated. ⇒
+
+**association** ⇒ The act of associating or being connected with / relation ⇒
+
+**deprivation** ⇒ a situation in which you do not have things or conditions that are usually considered necessary for a pleasant life  ⇒
+
+**nutrition** ⇒ the substances that you take into your body as food and the way that they influence your health ⇒
+
+**particularly** ⇒ in the specific case of one person or thing as distinguished from others / special selected ⇒
+
+**acquisition** ⇒ the process of getting something / gain ⇒
+
+**tendency** ⇒ trend / predisposition A characteristic likelihood ⇒
+
+**likelihood** ⇒ Something probable / the chance that something will happen / probability ⇒
+
+**discrimination** ⇒ the state of being kept distinct ⇒
+
+**accuse** ⇒ to charge with a fault or offense / blame ⇒
+
+**starvation** ⇒ lack of food / hungery ⇒
+
+**decade** ⇒ a group or set of 10 ⇒
+
+**ruin** ⇒ The state of being physically destroyed or damaged ⇒
+
+**advocate** ⇒ one who defends or maintains a cause or proposal ⇒ 
+
+**persuade** ⇒ convincing ⇒
+
+decide ⇒ to make a final choice or judgment about / decision ⇒
+
+**enormously** ⇒ extremely or very much ⇒
+
+**consumption** ⇒ the amount used or eaten ⇒
+
+**redundant** ⇒ unnecessary ⇒
+
+**establish** ⇒ to start a company or organization that will continue for a long time ⇒
+
+**indeed** ⇒ Without a doubt; certainly / In fact; in reality ⇒
+
+**substance** ⇒ material with particular physical characteristics: ⇒
+
+**acquires** ⇒ gain / to get or buy something ⇒
+
+**crucial** ⇒ extremely important or necessary ⇒
+
+**amount** ⇒ value ⇒
+
+**proposal** ⇒ offer ⇒ 
+
+**glad** ⇒ pleased and happy ⇒
+
+**faith** ⇒ great trust or confidence in something or someone: ⇒
+
+**possession** ⇒ the act of having or taking into control ⇒
+
+**promote** ⇒ to encourage people to like, buy, use, do, or support something ⇒
+
+**guilty** ⇒ Deserving blame ⇒
+
+**precise** ⇒ Clearly expressed or delineated; definite / curtain ⇒
+
+**accurate** ⇒ Conforming exactly to fact; errorless. / precise ⇒
+
+**lenient** ⇒ Not harsh or strict; merciful or generous ⇒
+
+**substantial** ⇒ large in size, value, or importance ⇒
+
+**devote** ⇒ dedicate ⇒
+
+**coincidence** ⇒ incidence / the occurrence of events that happen at the same time by accident but seem to have some connection ⇒
+
+**trait** ⇒ a distinguishing quality (as of personal character) / characteristic  ⇒
+
+**reliable** ⇒ can be trusted ⇒ 
+
+**inhabit** ⇒ to live in a place ⇒
+
+**sincerely** ⇒ honestly and without pretending or lying / intimacy ⇒
+
+**assumption** ⇒ something that you accept as true without question or proof ⇒
+
+**absence** ⇒ lack / without ⇒
+
+**admire** ⇒ compliment / to respect and approve of someone or their behaviour: ⇒
+
+**susceptible** ⇒ Easily influenced or affected ⇒
+
+**abundance** ⇒ an ample quantity / the situation in which there is more than enough of something ⇒
+
+**notorious** ⇒ famous for something bad ⇒
+
+**entertain** ⇒ to keep a group of people interested or enjoying themselves / joy ⇒
+
+**reveal** ⇒ to make known or show something that is surprising or that was previously secret ⇒
+
+**immensely** ⇒ extremely ⇒
+
+**concern** ⇒ to cause worry to someone or something ⇒
+
+**prevalence** ⇒ the fact that something is very common or happens often ⇒
+
+**incident** ⇒ event / an event that is either unpleasant or unusual / accident ⇒
+
+**consistency** ⇒ agreement or harmony of parts or features to one another or a whole ⇒
+
+**dispansable** ⇒ capable of being dispensed with ⇒
+
+**contentious** ⇒ likely to cause disagreement or argument ⇒
+
+**noteworthy** ⇒ worthy of or attracting attention especially because of some special excellence ⇒
+
+**subtle** ⇒ So slight as to be difficult to detect or describe / small but important / elusive ⇒
+
+**misc / miscellanious** ⇒ Having a variety / diversity ⇒
+
+**intact** ⇒ not damaged or destroyed ⇒
+
+**overwhelming** ⇒ difficult to fight against ⇒
+
+**innate** ⇒ An innate quality or ability is one that you were born with, not one you have learned ⇒
+
+**elusive** ⇒ hard to express or define ⇒
+
+**ample** ⇒ more than enough ⇒
+
+**promising** ⇒ Something that is promising shows signs that it is going to be successful or enjoyable / hopefull ⇒
+
+**tangible** ⇒ concrete/ real and not imaginary; able to be shown, touched, or experienced ⇒
+
+**surmountable** ⇒ possible to deal with or solve successfully ⇒
+
+**incomprehensible** ⇒ impossible or extremely difficult to understand ⇒W
+
+**auction** ⇒ a sale of property to the highest bidder ⇒
+
+**properly** ⇒ in an acceptable or suitable way ⇒
+
+**miserable** ⇒ very unhappy ⇒
+
+**insure** ⇒ insurance ⇒
+
+**concise** ⇒ short and clear, expressing what needs to be said without unnecessary words ⇒
+
+**implicit** ⇒ capable of being understood from something else though unexpressed ⇒
+
+**endure** ⇒ to continue in the same state ⇒
+
+**precaution** ⇒ an action that is done to prevent something unpleasant or dangerous happening ⇒
+
+**prevalent** ⇒ existing very commonly or happening often ⇒
+
+**remarkable** ⇒ Attracting or worthy of notice, especially for being unusual or extraordinary ⇒
+
+**plenty** ⇒ ample / enough or more than enough, or a large amount / ⇒
+
+**scarce** ⇒ not easy to find or get / not plent or ample ⇒
+
+**thoroughly** ⇒ completely, very much ⇒
+
+**precious** ⇒ of great value because of being rare, expensive, or important / valuable / worthy ⇒
+
+**obvious** ⇒ easy to see, recognize, or understand ⇒
+
+**endorse** ⇒ approving ⇒
+
+**inadvertently** ⇒ accidenteal / by mistake / not intentional ⇒
+
+**vital** ⇒ extremely important necessary for the success or continued existence of something; ⇒
+
+**venture** ⇒ a new activity, usually in business, that involves risk or uncertainty ⇒
+
+**neglect** ⇒ omission / to not give enough care or attention to people or things that are your responsibility ⇒
+
+**obtain** ⇒ to gain or attain usually by planned action or effort ⇒
+
+**coerce** ⇒ to achieve by force or threat ⇒
+
+**tentative** ⇒ temporary, experimental ⇒
+
+**deception** ⇒ the act of causing someone to accept as true or valid what is false or invalid ⇒
+
+**thwart** ⇒ to stop something from happening or someone from doing something / to obstruct ⇒
+
+**endurance** ⇒ durable / substantial ⇒
+
+**discern** ⇒ to see, recognize, or understand something that is not clear ⇒
+
+**fallacy** ⇒ an idea that a lot of people think is true but is in fact false ⇒
+
+**delineate** ⇒ to describe, portray, or set forth with accuracy or in detail ⇒
+
+**incentive** ⇒ promote ⇒
+
+**attain** ⇒ reach to end ⇒
+
+**omission** ⇒ something neglected or left undone ⇒
+
+**estate** ⇒ social standing or rank especially of a high order / a person's property in land and tenements ⇒
+
+**buzzword** ⇒ An stylish or trendy word or phrase, especially when occurring in a specialized field. ⇒
+
+**negociate** ⇒ to have formal discussions with someone in order to reach an agreement with them / bargain ⇒
+
+**deliberately** ⇒ intentionally / with full awareness of what one is doing ⇒ 
+
+**aware** ⇒ Having knowledge or discernment of something ⇒
+
+**reckon** ⇒ considering, compute ⇒
