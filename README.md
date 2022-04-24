@@ -301,266 +301,288 @@
 **consist** ⇒ to be something / to be in agreement on every point ⇒ The team **consists**
  of four Europeans and two Americans.
 
-**charity** ⇒ an organization whose purpose is to give money, food, or help to those who need it ⇒
+**charity** ⇒ an organization whose purpose is to give money, food, or help to those who need it ⇒ **Charity** begins at home, but should not end there.
 
-**charm** ⇒ an object or saying that is thought to have magical powers, such as the ability to bring good luck ⇒
+**charm** ⇒ an object or saying that is thought to have magical powers, such as the ability to bring good luck ⇒ I hope this **charm** will bring you luck.
 
-**convincing** ⇒ able to make you believe that something is true or right ⇒
+**convincing** ⇒ able to make you believe that something is true or right ⇒ She sounded very convincing to me.
 
-**fraction** ⇒ a number that results from dividing one whole number by another (¼ and 0.25) ⇒
+**fraction** ⇒ a number that results from dividing one whole number by another (¼ and 0.25) ⇒ 3/2 is an improper **fraction**.
 
-**therefore** ⇒ for that reason ⇒
+**therefore** ⇒ for that reason ⇒ Their car was bigger and **therefore** more comfortable.
 
-**exploitation** ⇒ the use of something in order to get an advantage from it ⇒
+**exploitation** ⇒ the use of something in order to get an advantage from it ⇒ Commercial **exploitation** of resources threatens our survival.
 
-**jeopardy** ⇒ in danger of being damaged or destroyed ⇒
+**jeopardy** ⇒ in danger of being damaged or destroyed ⇒ The lives of thousands of birds are in **jeopardy** as a result of the oil spillage.
 
-**efficacy** ⇒ the ability, especially of a medicine or a method of achieving something, to produce the intended result / affect ⇒
+**efficacy** ⇒ the ability, especially of a medicine or a method of achieving something, to produce the intended result / affect ⇒ Recent medical studies confirm the **efficacy** of a healthier lifestyle.
 
-**competence** ⇒ the ability to do something well ⇒
+**competence** ⇒ the ability to do something well / enough ⇒ Training is a prerequisite for **competence**.
 
-**remnant** ⇒ a small piece or amount of something that is left from a larger original piece or amount ⇒
+**remnant** ⇒ a small piece or amount of something that is left from a larger original piece or amount ⇒ Its rocks are filled with ancient charcoal, the **remnant** of a forgotten firestorm.
 
-**counterpart** ⇒ One of two parts that fit and complete each other. ⇒
+**counterpart** ⇒ One of two parts that fit and complete each other. ⇒ Night is the **counterpart** of day.
 
-**prospects** ⇒ Something expected; a possibility ⇒
+**prospects** ⇒ Something expected; a possibility / hopes ⇒ Our **prospects** of winning an election will be better under his leadership.
 
-**perhaps** ⇒ Maybe; possibly. ⇒
+**perhaps** ⇒ Maybe; possibly. ⇒ **Perhaps** the letter will come today.
 
-**utilisation** ⇒ to find a useful purpose for (something). ⇒
+**utilisation** ⇒ to find a useful purpose for (something). / usage ⇒ Currently, for example, industrial - capacity **utilisation** in America is 73 %.
 
-**inclination** ⇒ a habitual attraction to some activity or thing /tendency / trend ⇒
+**inclination** ⇒ a habitual attraction to some activity or thing /tendency / trend ⇒ My natural **inclination** was to say no.
 
-**inquiries** ⇒ a systematic search for the truth or facts about something / investigation ⇒
+**inquiries** ⇒ a systematic search for the truth or facts about something / investigation ⇒ Police have instituted **inquiries** into the matter.
 
-**implications** ⇒ the effect that an action or decision will have on something else in the future ⇒
+**implications** ⇒ effect / the effect that an action or decision will have on something else in the future ⇒ The report has profound **implications** for schools.
 
-**evaluation** ⇒ the process of judging or calculating the quality, importance, amount, or value of something ⇒
+**evaluation** ⇒ the process of judging or calculating the quality, importance, amount, or value of something ⇒ I attempted an honest **evaluation** of my own life.
 
-**opposition** ⇒ strong disagreement / A political party or an organized group opposed to the group (chp) ⇒
+**opposition** ⇒ strong disagreement / A political party or an organized group opposed to the group (chp) ⇒ A strong **opposition** is vital to a healthy democracy.
 
-**revolution** ⇒ a change in the way a country is governed, usually to a different political system and often using violence or war ⇒
+**revolution** ⇒ a change in the way a country is governed, usually to a different political system and often using violence or war ⇒ The French **Revolution** changed France from a monarchy to a republic.
 
-**predisposition** ⇒ a habitual attraction to some activity or thing / trend / tendency ⇒
+**predisposition** ⇒ a habitual attraction to some activity or thing / trend / tendency ⇒ There are interactions between genetic **predisposition** and environmental factors.
 
-**contradiction** ⇒ the fact of something being the complete opposite of something else or very different from something else, so that one of them must be wrong ⇒
+**contradiction** ⇒ the fact of something being the complete opposite of something else or very different from something else, so that one of them must be wrong ⇒ How can we resolve this apparent **contradiction**?
 
-**sanction** ⇒ an official order, such as the stopping of trade, that is taken against a country in order to make it obey international law ⇒
+**sanction** ⇒ an official order, such as the stopping of trade, that is taken against a country in order to make it obey international law ⇒ Official **sanction** has not yet been given.
 
-**proportion** ⇒ the number or amount of a group or part of something when compared to the whole ⇒
+**proportion** ⇒ the number or amount of a group or part of something when compared to the whole ⇒ A large **proportion** of old people live alone.
 
-**allocation** ⇒ the process of giving someone their part of a total amount of something to use in a particular way / sharing ⇒
+**allocation** ⇒ the process of giving someone their part of a total amount of something to use in a particular way / sharing ⇒ He wants a larger **allocation** in any case.
 
-**demonstration** ⇒ the act of showing someone how to do something, or how something works / demo ⇒
+**demonstration** ⇒ the act of showing someone how to do something, or how something works / demo ⇒ The professor will give a **demonstration** in class.
 
-**dedication** ⇒ The act of dedicating or the state of being dedicated. ⇒
+**dedication** ⇒ The act of dedicating or the state of being dedicated. ⇒ I admire her **dedication** to the job.
 
-**association** ⇒ The act of associating or being connected with / relation ⇒
+**association** ⇒ The act of associating or being connected with / relation ⇒ The **association** meets four times a year.
 
-**deprivation** ⇒ a situation in which you do not have things or conditions that are usually considered necessary for a pleasant life  ⇒
+**deprivation** ⇒ lack / a situation in which you do not have things or conditions that are usually considered necessary for a pleasant life  ⇒ Sleep **deprivation** can result in mental disorders.
 
-**nutrition** ⇒ the substances that you take into your body as food and the way that they influence your health ⇒
+**nutrition** ⇒ the substances that you take into your body as food and the way that they influence your health ⇒ This food provides **nutrition** for you.
 
-**particularly** ⇒ in the specific case of one person or thing as distinguished from others / special selected ⇒
+**particularly** ⇒ in the specific case of one person or thing as distinguished from others / special selected ⇒ This wine goes **particularly** well with seafood.
 
-**acquisition** ⇒ the process of getting something / gain ⇒
+**acquisition** ⇒ the process of getting something / buying / gain ⇒ This bookcase is my latest **acquisition**.
 
-**tendency** ⇒ trend / predisposition A characteristic likelihood ⇒
+**tendency** ⇒ trend / predisposition A characteristic likelihood ⇒ He has a **tendency** to forget things.
 
-**likelihood** ⇒ Something probable / the chance that something will happen / probability ⇒
+**likelihood** ⇒ Something probable / the chance that something will happen / probability ⇒ Using a seatbelt will reduce the **likelihood** of serious injury in a car accident.
 
-**discrimination** ⇒ the state of being kept distinct ⇒
+**discrimination** ⇒ the state of being kept distinct ⇒ **Discrimination** against women is not allowed.
 
-**accuse** ⇒ to charge with a fault or offense / blame ⇒
+**accuse** ⇒ to charge with a fault or offense / blame ⇒ How dare you **accuse** me of lying!
 
-**starvation** ⇒ lack of food / hungery ⇒
+**starvation** ⇒ lack of food / hungery ⇒ Emergency aid could save millions threatened with **starvation**.
 
-**decade** ⇒ a group or set of 10 ⇒
+**decade** ⇒ a group or set of 10 ⇒ Great changes have taken place in the last **decade**.
 
-**ruin** ⇒ The state of being physically destroyed or damaged ⇒
+**ruin** ⇒ The state of being physically destroyed or damaged ⇒ The news meant the **ruin** of all our hopes.
 
-**advocate** ⇒ one who defends or maintains a cause or proposal ⇒ 
+**advocate** ⇒ one who defends or maintains a cause or proposal ⇒ I don't **advocate** doing such things.
 
-**persuade** ⇒ convincing ⇒
+**persuade** ⇒ convincing ⇒ I failed in my attempt to **persuade** her.
 
-decide ⇒ to make a final choice or judgment about / decision ⇒
+**admission ⇒** acceptance **⇒** Justine and I got **admission** at the same time.
 
-**enormously** ⇒ extremely or very much ⇒
+**disorder** ⇒ irregular / chaos / confussion ⇒ The room was in a state of **disorder**.
 
-**consumption** ⇒ the amount used or eaten ⇒
+**decide** ⇒ to make a final choice or judgment about / decision ⇒ I shall **decide** for going abroad later.
 
-**redundant** ⇒ unnecessary ⇒
+**enormously** ⇒ extremely or very much ⇒ His English improved **enormously** because of his association with British people.
 
-**establish** ⇒ to start a company or organization that will continue for a long time ⇒
+**consumption** ⇒ the amount used or eaten / usage ⇒ Water **consumption** decreased during the winter.
 
-**indeed** ⇒ Without a doubt; certainly / In fact; in reality ⇒
+**redundant** ⇒ unnecessary ⇒ The illustration had too much **redundant** detail.
 
-**substance** ⇒ material with particular physical characteristics: ⇒
+**perseverance ⇒** continued effort to do or achieve something despite difficulties, failure, or opposition **⇒ Perseverance** is failing nineteen times and succeeding the twentieth.
 
-**acquires** ⇒ gain / to get or buy something ⇒
+**establish** ⇒ to start a company or organization that will continue for a long time ⇒ She has donated money to **establish** a pharmaceutical laboratory.
 
-**crucial** ⇒ extremely important or necessary ⇒
+**indeed** ⇒ Without a doubt; certainly / In fact; in reality ⇒ He was **indeed** fortunate in his friends.
 
-**amount** ⇒ value ⇒
+**fortunate** ⇒ lucky ⇒ He was extremely **fortunate** to survive.
 
-**proposal** ⇒ offer ⇒ 
+**substance** ⇒ material with particular physical characteristics: ⇒ Diamond is the hardest **substance** known.
 
-**glad** ⇒ pleased and happy ⇒
+**acquires** ⇒ gain / to get or buy something ⇒ No country **acquires** these industries without effort and without making the investments necessary to create them.
 
-**faith** ⇒ great trust or confidence in something or someone: ⇒
+**crucial** ⇒ extremely important or necessary ⇒ This aid money is **crucial** to the government's economic policies.
 
-**possession** ⇒ the act of having or taking into control ⇒
+**amount** ⇒ value ⇒ We've saved a considerable **amount** of money.
 
-**promote** ⇒ to encourage people to like, buy, use, do, or support something ⇒
+**proposal** ⇒ offer ⇒ We agreed on a skeleton outline of the **proposal**.
 
-**guilty** ⇒ Deserving blame ⇒
+**despite ⇒** in spite of / nevertheless **⇒ Despite** the bad weather, we enjoyed ourselves.
 
-**precise** ⇒ Clearly expressed or delineated; definite / curtain ⇒
+**glad** ⇒ pleased and happy ⇒ I'm **glad** to meet you.
 
-**accurate** ⇒ Conforming exactly to fact; errorless. / precise ⇒
+**faith** ⇒ great trust or confidence in something or someone ⇒ **Faith** will move mountains.
 
-**lenient** ⇒ Not harsh or strict; merciful or generous ⇒
+**possession** ⇒ the act of having or taking into control ⇒ He's got **possession** of the house for 10 years.
 
-**substantial** ⇒ large in size, value, or importance ⇒
+**promote** ⇒ to encourage people to like, buy, use, do, or support something ⇒ The government should do more to **promote** sustainable agriculture.
 
-**devote** ⇒ dedicate ⇒
+**guilty** ⇒ Deserving blame ⇒ A **guilty** conscience needs no accuser.
 
-**coincidence** ⇒ incidence / the occurrence of events that happen at the same time by accident but seem to have some connection ⇒
+**accomplishment** ⇒ something that is successful / achievement ⇒ Every **accomplishment** starts with the decision to try.
 
-**trait** ⇒ a distinguishing quality (as of personal character) / characteristic  ⇒
+**precise** ⇒ Clearly expressed or delineated; definite / curtain ⇒ She gave me clear and **precise** directions.
 
-**reliable** ⇒ can be trusted ⇒ 
+**accurate** ⇒ Conforming exactly to fact; errorless. / precise ⇒ It's impossible to be **accurate** about these things.
 
-**inhabit** ⇒ to live in a place ⇒
+**lenient** ⇒ Not harsh or strict; merciful or generous ⇒ Professor Oswald takes a sightly more **lenient** view.
 
-**sincerely** ⇒ honestly and without pretending or lying / intimacy ⇒
+**substantial** ⇒ large in size, value, or importance ⇒ **Substantial** numbers of people support the reforms.
 
-**assumption** ⇒ something that you accept as true without question or proof ⇒
+**devote** ⇒ dedicate ⇒ He wanted to **devote** his energies to writing films.
 
-**absence** ⇒ lack / without ⇒
+**coincidence** ⇒ incidence / the occurrence of events that happen at the same time by accident but seem to have some connection ⇒ There is no such thing as a **coincidence** in this world, there is only the inevitable.
 
-**admire** ⇒ compliment / to respect and approve of someone or their behaviour: ⇒
+**trait** ⇒ a distinguishing quality (as of personal character) / characteristic  ⇒ But your greatest character **trait** is your honesty.
 
-**susceptible** ⇒ Easily influenced or affected ⇒
+**reliable** ⇒ can be trusted ⇒ It has a highly **reliable** control system.
 
-**abundance** ⇒ an ample quantity / the situation in which there is more than enough of something ⇒
+**inhabit** ⇒ to live in a place ⇒ They **inhabit** the tropical forests.
 
-**notorious** ⇒ famous for something bad ⇒
+**sincerely** ⇒ honestly and without pretending or lying / intimacy ⇒ I **sincerely** hope that you will be successful.
 
-**entertain** ⇒ to keep a group of people interested or enjoying themselves / joy ⇒
+**assumption** ⇒ something that you accept as true without question or proof ⇒ It is very likely that your **assumption** is wrong.
 
-**reveal** ⇒ to make known or show something that is surprising or that was previously secret ⇒
+**absence** ⇒ lack / without ⇒ He excused his **absence** by saying that he was ill.
 
-**immensely** ⇒ extremely ⇒
+**admire** ⇒ compliment / to respect and approve of someone or their behaviour: ⇒ We **admire** his working so hard.
 
-**concern** ⇒ to cause worry to someone or something ⇒
+**susceptible** ⇒ Easily influenced or affected ⇒ Older people are more **susceptible** to infections.
 
-**prevalence** ⇒ the fact that something is very common or happens often ⇒
+**abundance** ⇒ an ample quantity / the situation in which there is more than enough of something ⇒ The country has an **abundance** of natural resources.
 
-**incident** ⇒ event / an event that is either unpleasant or unusual / accident ⇒
+**notorious** ⇒ famous for something bad ⇒ The company is **notorious** for paying its bills late.
 
-**consistency** ⇒ agreement or harmony of parts or features to one another or a whole ⇒
+**entertain** ⇒ to keep a group of people interested or enjoying themselves / joy ⇒ A teacher should **entertain** as well as teach.
 
-**dispansable** ⇒ capable of being dispensed with ⇒
+**reveal** ⇒ to make known or show something that is surprising or that was previously secret ⇒ The doctors did not **reveal** the truth to him.
 
-**contentious** ⇒ likely to cause disagreement or argument ⇒
+**immensely** ⇒ extremely ⇒ I enjoyed myself at the party **immensely**.
 
-**noteworthy** ⇒ worthy of or attracting attention especially because of some special excellence ⇒
+**concern** ⇒ to cause worry to someone or something ⇒ He has a **concern** in the business.
 
-**subtle** ⇒ So slight as to be difficult to detect or describe / small but important / elusive ⇒
+**prevalence** ⇒ the fact that something is very common or happens often / prevalent ⇒ We have earlier discussed the **prevalence** of kebab.
 
-**misc / miscellanious** ⇒ Having a variety / diversity ⇒
+**incident** ⇒ event / an event that is either unpleasant or unusual / accident ⇒ The movie is based on a real-life **incident**.
 
-**intact** ⇒ not damaged or destroyed ⇒
+**consistency** ⇒ agreement or harmony of parts or features to one another or a whole ⇒ These accounts show no **consistency**.
 
-**overwhelming** ⇒ difficult to fight against ⇒
+**dispensable** ⇒ capable of being dispensed with ⇒ A garage is useful but **dispensable**.
 
-**innate** ⇒ An innate quality or ability is one that you were born with, not one you have learned ⇒
+**contentious** ⇒ likely to cause disagreement or argument ⇒ Sanctions are expected to be among the most **contentious** issues.
 
-**elusive** ⇒ hard to express or define ⇒
+**noteworthy** ⇒ worthy of or attracting attention especially because of some special excellence ⇒ He gave several **noteworthy** performances during his short career.
 
-**ample** ⇒ more than enough ⇒
+**subtle** ⇒ So slight as to be difficult to detect or describe / small but important / elusive ⇒ There is a **subtle** difference between these two plans.
 
-**promising** ⇒ Something that is promising shows signs that it is going to be successful or enjoyable / hopefull ⇒
+**misc / miscellaneous** ⇒ Having a variety / diversity ⇒ She gave me some money to cover any **miscellaneous** expenses.
 
-**tangible** ⇒ concrete/ real and not imaginary; able to be shown, touched, or experienced ⇒
+**intact** ⇒ not damaged or destroyed ⇒ The castle has remained **intact** over the centuries.
 
-**surmountable** ⇒ possible to deal with or solve successfully ⇒
+**overwhelming** ⇒ difficult to fight against ⇒ She felt an **overwhelming** desire to return home.
 
-**incomprehensible** ⇒ impossible or extremely difficult to understand ⇒W
+**innate** ⇒ An innate quality or ability is one that you were born with, not one you have learned ⇒ Emotion is the **innate** weakness of human.
 
-**auction** ⇒ a sale of property to the highest bidder ⇒
+**elusive** ⇒ hard to express or define ⇒ She managed to get an interview with that **elusive** man.
 
-**properly** ⇒ in an acceptable or suitable way ⇒
+**ample** ⇒ more than enough ⇒ You'll have **ample** time for questions later.
 
-**miserable** ⇒ very unhappy ⇒
+**promising** ⇒ Something that is promising shows signs that it is going to be successful or enjoyable / hopefull ⇒ The results of the experiments are very **promising**.
 
-**insure** ⇒ insurance ⇒
+**tangible** ⇒ concrete/ real and not imaginary; able to be shown, touched, or experienced ⇒ We cannot accept his findings without **tangible** evidence.
 
-**concise** ⇒ short and clear, expressing what needs to be said without unnecessary words ⇒
+**surmountable** ⇒ possible to deal with or solve successfully ⇒ Those barriers that do exist are mostly **surmountable**.
 
-**implicit** ⇒ capable of being understood from something else though unexpressed ⇒
+**incomprehensible** ⇒ impossible or extremely difficult to understand ⇒ She found his accent **incomprehensible**.
 
-**endure** ⇒ to continue in the same state ⇒
+**auction** ⇒ a sale of property to the highest bidder ⇒ The house was sold at **auction**.
 
-**precaution** ⇒ an action that is done to prevent something unpleasant or dangerous happening ⇒
+**properly** ⇒ in an acceptable or suitable way ⇒ The television isn't working **properly**.
 
-**prevalent** ⇒ existing very commonly or happening often ⇒
+**miserable** ⇒ very unhappy ⇒ I was **miserable** from hunger.
 
-**remarkable** ⇒ Attracting or worthy of notice, especially for being unusual or extraordinary ⇒
+**insure** ⇒ insurance ⇒ It is **advisable** to insure your life against accident.
 
-**plenty** ⇒ ample / enough or more than enough, or a large amount / ⇒
+**concise** ⇒ short and clear, expressing what needs to be said without unnecessary words ⇒ The best cover letter is **concise**.
 
-**scarce** ⇒ not easy to find or get / not plent or ample ⇒
+**implicit** ⇒ capable of being understood from something else though unexpressed ⇒ Her words contained an **implicit** threat.
 
-**thoroughly** ⇒ completely, very much ⇒
+**endure** ⇒ to continue in the same state ⇒ I can't **endure** loud music.
 
-**precious** ⇒ of great value because of being rare, expensive, or important / valuable / worthy ⇒
+**precaution** ⇒ an action that is done to prevent something unpleasant or dangerous happening ⇒ He took the **precaution** of locking his door when he went out.
 
-**obvious** ⇒ easy to see, recognize, or understand ⇒
+**prevalent** ⇒ existing very commonly or happening often ⇒ These diseases are more **prevalent** among young children.
 
-**endorse** ⇒ approving ⇒
+**remarkable** ⇒ Attracting or worthy of notice, especially for being unusual or extraordinary ⇒ She has made **remarkable** progress.
 
-**inadvertently** ⇒ accidenteal / by mistake / not intentional ⇒
+**plenty** ⇒ ample / enough or more than enough, or a large amount  ⇒ Try to eat **plenty** of fresh fruit.
 
-**vital** ⇒ extremely important necessary for the success or continued existence of something; ⇒
+**scarce** ⇒ not easy to find or get / not plent or ample ⇒ Food and fuel were **scarce** in this region.
 
-**venture** ⇒ a new activity, usually in business, that involves risk or uncertainty ⇒
+**thoroughly** ⇒ completely / start to end ⇒ Wash the fruit **thoroughly** before eating.
 
-**neglect** ⇒ omission / to not give enough care or attention to people or things that are your responsibility ⇒
+**precious** ⇒ of great value because of being rare, expensive, or important / valuable / worthy ⇒ Nothing is more **precious** than independence and freedom.
 
-**obtain** ⇒ to gain or attain usually by planned action or effort ⇒
+**obvious** ⇒ easy to see, recognize, or understand ⇒ It is quite **obvious** that he is lying.
 
-**coerce** ⇒ to achieve by force or threat ⇒
+**endorse** ⇒ approving ⇒ I can **endorse** their opinion sincerely.
 
-**tentative** ⇒ temporary, experimental ⇒
+**inadvertently** ⇒ accidenteal / by mistake / not intentional ⇒ Viruses can be spread **inadvertently** by email users.
 
-**deception** ⇒ the act of causing someone to accept as true or valid what is false or invalid ⇒
+**vital** ⇒ extremely important necessary for the success or continued existence of something; ⇒ Perseverance is **vital** to success.
 
-**thwart** ⇒ to stop something from happening or someone from doing something / to obstruct ⇒
+**venture** ⇒ initiative / a new activity, usually in business, that involves risk or uncertainty ⇒ The project is a joint **venture** between the public and private sectors.
 
-**endurance** ⇒ durable / substantial ⇒
+**neglect** ⇒ omission / to not give enough care or attention to people or things that are your responsibility ⇒ Don't **neglect** your health.
 
-**discern** ⇒ to see, recognize, or understand something that is not clear ⇒
+**obtain** ⇒ to gain or attain usually by planned action or effort / having to something ⇒ Where can I **obtain** the book?
 
-**fallacy** ⇒ an idea that a lot of people think is true but is in fact false ⇒
+**coerce** ⇒ to achieve by force or threat ⇒ They were **coerced** into signing the contract.
 
-**delineate** ⇒ to describe, portray, or set forth with accuracy or in detail ⇒
+**tentative** ⇒ temporary, experimental ⇒ We've made a **tentative** plan for the vacation but haven't really decided yet.
 
-**incentive** ⇒ promote ⇒
+**deception** ⇒ the act of causing someone to accept as true or valid what is false or invalid ⇒ He was found guilty of obtaining money by **deception**.
 
-**attain** ⇒ reach to end ⇒
+**thwart** ⇒ to stop something from happening or someone from doing something / to obstruct ⇒ The accounting firm deliberately destroyed documents to **thwart** government investigators.
 
-**omission** ⇒ something neglected or left undone ⇒
+**endurance** ⇒ durable / substantial ⇒ Long distance runners need great **endurance**.
 
-**estate** ⇒ social standing or rank especially of a high order / a person's property in land and tenements ⇒
+**discern** ⇒ to see, recognize, or understand something that is not clear ⇒ The man couldn't **discern** between right and wrong.
 
-**buzzword** ⇒ An stylish or trendy word or phrase, especially when occurring in a specialized field. ⇒
+**fallacy** ⇒ an idea that a lot of people think is true but is in fact false ⇒ He detected the **fallacy** of her argument.
 
-**negociate** ⇒ to have formal discussions with someone in order to reach an agreement with them / bargain ⇒
+**delineate** ⇒ to describe, portray, or set forth with accuracy or in detail ⇒ Jamie asked her teacher to **delineate** the project description once more.
 
-**deliberately** ⇒ intentionally / with full awareness of what one is doing ⇒ 
+**incentive** ⇒ promote ⇒ A little bonus will give the employees an **incentive** to work harder.
 
-**aware** ⇒ Having knowledge or discernment of something ⇒
+**attain** ⇒ reach to end ⇒ The cheetah can **attain** speeds of up to 97 kph.
 
-**reckon** ⇒ considering, compute ⇒
+**omission** ⇒ something neglected or left undone ⇒ The principal reason for this **omission** is lack of time.
+
+**estate** ⇒ social standing or rank especially of a high order / a person's property in land and tenements ⇒ The **estate** is surrounded by high stone walls.
+
+**buzzword** ⇒ An stylish or trendy word or phrase, especially when occurring in a specialized field. ⇒ 'Diversity' is the new **buzzword** in education.
+
+**negotiate** ⇒ to have formal discussions with someone in order to reach an agreement with them / bargain ⇒ They have refused to **negotiate** on this issue.
+
+**deliberately** ⇒ intentionally / with full awareness of what one is doing ⇒ She was accused of **deliberately** misleading Parliament.
+
+**aware** ⇒ Having knowledge or discernment of something ⇒ Everybody is **aware** of the hazards of smoking.
+
+**reckon** ⇒ considering, compute ⇒ We didn't **reckon** for having such bad weather.
+
+**insights** ⇒ (the ability to have) a clear, deep, and sometimes sudden understanding of a complicated problem or situation ⇒ Her book provides us with fresh new **insights** into this behavior.
+
+**exhibition** ⇒ a public display of works of art or items of interest, held in an art gallery or museum or at a trade fair. ⇒ It is a wonderful **exhibition** of portraits, they say.
+
+**conscience** ⇒ a person's moral sense of right and wrong, viewed as acting as a guide to one's behaviour. ⇒ A clear **conscience** laughs at false accusations.
+
+**evidence** ⇒ one or more reasons for believing that something is or is not true ⇒ He has been unable to find **evidence** to support his theory.
+
+**fair** ⇒ treating people equally without favouritism or discrimination. / without cheating ⇒ No one could say he played **fair**.
